@@ -1,3 +1,5 @@
+export type SupportLink = { label: string; href: string }
+
 export type PromptItem = {
   id: string
   slug: string

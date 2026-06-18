@@ -18,13 +18,12 @@ export function Footer() {
           </div>
         </div>
         <div>
-          <h3 className="text-sm font-semibold">Support Prompt Empir</h3>
-          <p className="mt-2 text-sm text-muted-foreground">If this repository helps you, consider supporting its development.</p>
+          <h3 className="text-sm font-semibold">Repository</h3>
+          <p className="mt-2 text-sm text-muted-foreground">Browse source code, report issues, and submit prompt contributions.</p>
           <div className="mt-3 flex flex-wrap gap-3 text-sm">
-            <Link href={siteConfig.donation.githubSponsors}>Sponsors</Link>
-            <Link href={siteConfig.donation.buyMeACoffee}>Buy Me a Coffee</Link>
-            <Link href={siteConfig.donation.kofi}>Ko-fi</Link>
-            <Link href={siteConfig.donation.paypal}>PayPal</Link>
+            {siteConfig.supportLinks.map((link) => (
+              <Link key={link.href} href={link.href}>{link.label}</Link>
+            ))}
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-black.svg" /></a>
   <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-Yes-22c55e.svg" />
   <img alt="Contributions Welcome" src="https://img.shields.io/badge/Contributions-Welcome-2563eb.svg" />
-  <img alt="Stars" src="https://img.shields.io/github/stars/your-org/prompt-empir?style=social" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/gavuvapro/prompt-empire?style=social" />
 </p>
 
 Prompt Empir is an open-source, production-ready prompt library and website built for professionals who want reusable, high-quality prompts across major AI platforms and industries.
@@ -30,7 +30,7 @@ Prompt Empir is an open-source, production-ready prompt library and website buil
 - Dark, light, and system theme support.
 - SEO metadata, Open Graph, sitemap, and robots.txt.
 - Secure markdown rendering with sanitization.
-- Donation links for GitHub Sponsors, Buy Me a Coffee, Ko-fi, and PayPal.
+- Repository links for GitHub issues and pull requests.
 
 ## Supported AI Platforms
 
@@ -68,7 +68,7 @@ prompt-empir/
 ## Installation
 
 ```bash
-git clone https://github.com/your-org/prompt-empir.git
+git clone https://github.com/gavuvapro/prompt-empire.git
 cd prompt-empir/website
 npm install
 npm run dev
@@ -133,10 +133,9 @@ Please use Conventional Commits, such as `feat(prompts): add API review prompt`.
 If this repository helps you, consider supporting its development.
 
 <p>
-  <a href="https://github.com/sponsors/your-username">GitHub Sponsors</a> ·
-  <a href="https://www.buymeacoffee.com/your-username">Buy Me a Coffee</a> ·
-  <a href="https://ko-fi.com/your-username">Ko-fi</a> ·
-  <a href="https://paypal.me/your-username">PayPal</a>
+  <a href="https://github.com/gavuvapro/prompt-empire">GitHub Repository</a> ·
+  <a href="https://github.com/gavuvapro/prompt-empire/issues">Issues</a> ·
+  <a href="https://github.com/gavuvapro/prompt-empire/pulls">Pull Requests</a>
 </p>
 
 ## License

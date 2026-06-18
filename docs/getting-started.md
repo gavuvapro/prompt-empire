@@ -4,7 +4,9 @@ Prompt Empir can be used directly from GitHub or as a local website.
 
 ## Use from GitHub
 
-Browse the `prompts/` folder, open a Markdown prompt, copy the prompt, and replace placeholders like `{{context}}`.
+Browse the `prompts/` folder on GitHub, open a Markdown prompt, copy the prompt, and replace placeholders like `{{context}}`.
+
+Repository: https://github.com/gavuvapro/prompt-empire
 
 ## Run the website locally
 

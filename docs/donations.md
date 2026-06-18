@@ -1,5 +1,9 @@
-# Donations
+# Support
 
-Prompt Empir is free and open source. If it helps your work, consider supporting development through GitHub Sponsors, Buy Me a Coffee, Ko-fi, or PayPal.
+Prompt Empir is free and open source. Use the official GitHub repository to report issues, suggest prompts, review pull requests, and contribute improvements.
 
-Donation links are configured in `website/src/lib/config.ts` and the README.
+Repository links:
+
+- GitHub Repository: https://github.com/gavuvapro/prompt-empire
+- Issues: https://github.com/gavuvapro/prompt-empire/issues
+- Pull Requests: https://github.com/gavuvapro/prompt-empire/pulls

@@ -55,14 +55,13 @@ export default function HomePage() {
       <section className="border-y bg-muted/40">
         <div className="mx-auto grid max-w-7xl gap-8 px-6 py-16 lg:grid-cols-[1fr_420px] lg:px-8">
           <div>
-            <h2 className="text-3xl font-bold">Support Prompt Empir</h2>
-            <p className="mt-3 max-w-2xl text-muted-foreground">If this repository helps you, consider supporting its development.</p>
+            <h2 className="text-3xl font-bold">Contribute to Prompt Empir</h2>
+            <p className="mt-3 max-w-2xl text-muted-foreground">Use the live repository to review prompts, report issues, and submit pull requests.</p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">
-            <Button asChild variant="outline"><Link href={siteConfig.donation.githubSponsors}>GitHub Sponsors</Link></Button>
-            <Button asChild variant="outline"><Link href={siteConfig.donation.buyMeACoffee}>Buy Me a Coffee</Link></Button>
-            <Button asChild variant="outline"><Link href={siteConfig.donation.kofi}>Ko-fi</Link></Button>
-            <Button asChild variant="outline"><Link href={siteConfig.donation.paypal}>PayPal</Link></Button>
+            {siteConfig.supportLinks.map((link) => (
+              <Button key={link.href} asChild variant="outline"><Link href={link.href}>{link.label}</Link></Button>
+            ))}
           </div>
         </div>
       </section>
