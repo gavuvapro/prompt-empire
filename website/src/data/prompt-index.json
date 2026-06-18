@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T08:26:11.456Z",
+  "generatedAt": "2026-06-18T10:02:06.752Z",
   "prompts": [
     {
       "id": "education-study-prompts-active-recall-coach",
@@ -834,6 +834,41 @@
       "githubPath": "prompts/psychology/habits/habit-design-plan.md"
     },
     {
+      "id": "coding-ai-vscode-prompt-library-integration",
+      "slug": "coding-ai/vscode/prompt-library-integration",
+      "title": "IDE Prompt Library Integration",
+      "description": "Creates IDE extensions or snippets to integrate a local prompt library for quick insertion and browsing within development environments.",
+      "category": "coding-ai",
+      "subcategory": "vscode",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Cursor"
+      ],
+      "useCases": [
+        "Integrate prompt library into VS Code",
+        "Create IDE snippets for common prompts",
+        "Build prompt search extensions"
+      ],
+      "tags": [
+        "coding-ai",
+        "vscode",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "cursor",
+        "ide",
+        "prompt",
+        "library",
+        "integration"
+      ],
+      "prompt": "Act as a senior IDE extension architect. Your objective: creates IDE integration for prompt libraries.\n\nCore task:\nCreate an IDE extension that allows users to browse and insert prompts from {{prompt_library_path}} into their editor. Include file watching for updates, fuzzy search interface, snippet insertion, and keyboard shortcut configuration.\n\nInputs to consider:\n- {{prompt_library_path}}\n- {{audience}}\n- {{goal}}\n- {{context}}\n- {{constraints}}\n\nWorkflow:\n1. Review the inputs above. If required context is missing and prevents useful output, ask up to 3 targeted clarifying questions; otherwise, state explicit assumptions.\n2. Apply the core task using best practices for coding ai.\n3. For code changes, include file paths, test commands, security and performance considerations.\n4. Deliver a structured response.\n\nOutput format:\n- Brief objective\n- Assumptions (if any)\n- Deliverable with concrete, actionable details\n- Risks or tradeoffs\n- Next steps",
+      "exampleOutput": "Extension loads prompts from ./prompts/**/*.md, provides Ctrl+P quick search panel, inserts selected prompt at cursor with {{placeholder}} preserved.",
+      "markdown": "# IDE Prompt Library Integration\n\n## Description\nCreates IDE extensions or snippets to integrate a local prompt library for quick insertion and browsing within development environments.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Cursor\n\n## Use Cases\n- Integrate prompt library into VS Code\n- Create IDE snippets for common prompts\n- Build prompt search extensions\n\n## Prompt\n\nAct as a senior IDE extension architect. Your objective: creates IDE integration for prompt libraries.\n\nCore task:\nCreate an IDE extension that allows users to browse and insert prompts from {{prompt_library_path}} into their editor. Include file watching for updates, fuzzy search interface, snippet insertion, and keyboard shortcut configuration.\n\nInputs to consider:\n- {{prompt_library_path}}\n- {{audience}}\n- {{goal}}\n- {{context}}\n- {{constraints}}\n\nWorkflow:\n1. Review the inputs above. If required context is missing and prevents useful output, ask up to 3 targeted clarifying questions; otherwise, state explicit assumptions.\n2. Apply the core task using best practices for coding ai.\n3. For code changes, include file paths, test commands, security and performance considerations.\n4. Deliver a structured response.\n\nOutput format:\n- Brief objective\n- Assumptions (if any)\n- Deliverable with concrete, actionable details\n- Risks or tradeoffs\n- Next steps\n\n## Example Output\n\nExtension loads prompts from ./prompts/**/*.md, provides Ctrl+P quick search panel, inserts selected prompt at cursor with {{placeholder}} preserved.",
+      "githubPath": "prompts/coding-ai/vscode/prompt-library-integration.md"
+    },
+    {
       "id": "development-devops-incident-postmortem",
       "slug": "development/devops/incident-postmortem",
       "title": "incident-postmortem",
@@ -890,6 +925,41 @@
       "exampleOutput": "Reel hook: “3 prompts every startup founder should keep pinned.”",
       "markdown": "#Instagram Content Calendar\n\n## Description\nCreates Instagram content calendars with hooks, captions, and visual ideas.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Plan posts\n- Grow creators\n\n## Prompt\n\nAct as a social media strategist and content creator. Your objective: Creates Instagram content calendars with hooks, captions, and visual ideas.\n\nCore task:\nCreate a 14-day Instagram content calendar for {{niche}}. Include post type, hook, caption angle, visual concept, CTA, hashtags, and repurposing notes.\n\nInputs to consider:\n- {{niche}}\n- {{audience}}\n- {{goal}}\n- {{context}}\n- {{constraints}}\n\nWorkflow:\n1. Review the inputs above. If required context is missing and prevents useful output, ask up to 3 targeted clarifying questions; otherwise, state explicit assumptions.\n2. Apply the core task using best practices for social media.\n3. Match the requested tone, include hooks, structure, and audience-appropriate language.\n4. Deliver a structured response.\n\nOutput format:\n- Brief objective\n- Assumptions (if any)\n- Deliverable with concrete, actionable details\n- Risks or tradeoffs\n- Next steps\n\n## Example Output\n\nReel hook: “3 prompts every startup founder should keep pinned.”\n\n",
       "githubPath": "prompts/social-media/instagram/instagram-content-calendar.md"
+    },
+    {
+      "id": "coding-ai-jetbrains-intellij-plugin-prompt",
+      "slug": "coding-ai/jetbrains/intellij-plugin-prompt",
+      "title": "IntelliJ Plugin Development Guide",
+      "description": "Creates IntelliJ plugin functionality with proper PSI manipulation, extension points, and testing for JetBrains IDEs.",
+      "category": "coding-ai",
+      "subcategory": "jetbrains",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Cursor"
+      ],
+      "useCases": [
+        "Build IntelliJ plugins",
+        "Implement PSI inspections",
+        "Configure plugin.xml"
+      ],
+      "tags": [
+        "coding-ai",
+        "jetbrains",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "cursor",
+        "intellij",
+        "plugin",
+        "development",
+        "guide"
+      ],
+      "prompt": "Act as a senior IntelliJ plugin developer. Your objective: creates IntelliJ plugin functionality.\n\nCore task:\nWrite an IntelliJ plugin for {{feature}}. Include plugin.xml structure, extension points, PSI element manipulation, action groups, testing with LightPlatformTestCase, and plugin repository deployment.\n\nInputs to consider:\n- {{feature}}\n- {{audience}}\n- {{goal}}\n- {{context}}\n- {{constraints}}\n\nWorkflow:\n1. Review the inputs above. If required context is missing and prevents useful output, ask up to 3 targeted clarifying questions; otherwise, state explicit assumptions.\n2. Apply the core task using best practices for coding ai.\n3. For code changes, include file paths, test commands, security and performance considerations.\n4. Deliver a structured response.\n\nOutput format:\n- Brief objective\n- Assumptions (if any)\n- Deliverable with concrete, actionable details\n- Risks or tradeoffs\n- Next steps",
+      "exampleOutput": "plugin.xml with <extensions> registration, MyAction extends AnAction with actionPerformed, and Gradle IntelliJ plugin setup for local testing.",
+      "markdown": "# IntelliJ Plugin Development Guide\n\n## Description\nCreates IntelliJ plugin functionality with proper PSI manipulation, extension points, and testing for JetBrains IDEs.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Cursor\n\n## Use Cases\n- Build IntelliJ plugins\n- Implement PSI inspections\n- Configure plugin.xml\n\n## Prompt\n\nAct as a senior IntelliJ plugin developer. Your objective: creates IntelliJ plugin functionality.\n\nCore task:\nWrite an IntelliJ plugin for {{feature}}. Include plugin.xml structure, extension points, PSI element manipulation, action groups, testing with LightPlatformTestCase, and plugin repository deployment.\n\nInputs to consider:\n- {{feature}}\n- {{audience}}\n- {{goal}}\n- {{context}}\n- {{constraints}}\n\nWorkflow:\n1. Review the inputs above. If required context is missing and prevents useful output, ask up to 3 targeted clarifying questions; otherwise, state explicit assumptions.\n2. Apply the core task using best practices for coding ai.\n3. For code changes, include file paths, test commands, security and performance considerations.\n4. Deliver a structured response.\n\nOutput format:\n- Brief objective\n- Assumptions (if any)\n- Deliverable with concrete, actionable details\n- Risks or tradeoffs\n- Next steps\n\n## Example Output\n\nplugin.xml with <extensions> registration, MyAction extends AnAction with actionPerformed, and Gradle IntelliJ plugin setup for local testing.",
+      "githubPath": "prompts/coding-ai/jetbrains/intellij-plugin-prompt.md"
     },
     {
       "id": "career-interviews-interview-practice-coach",
@@ -2232,6 +2302,41 @@
       "exampleOutput": "A 20-second cinematic product demo: close-up of creator searching prompts, smooth push-in, quick cuts to categories, clean studio lighting.",
       "markdown": "#Veo Product Demo Prompt\n\n## Description\nCreates video generation prompts for product demo sequences.\n\n## Best AI Models\n- Veo\n\n## Use Cases\n- Generate promos\n- Visualize product launches\n\n## Prompt\n\nAct as a AI video prompt specialist and cinematographer. Your objective: Creates video generation prompts for product demo sequences.\n\nCore task:\nCreate a Veo prompt for a {{duration}} product demo video. Include scene sequence, camera movement, transitions, lighting, mood, UI depiction, and audio direction if supported.\n\nInputs to consider:\n- {{duration}}\n- {{audience}}\n- {{goal}}\n- {{context}}\n- {{constraints}}\n\nWorkflow:\n1. Review the inputs above. If required context is missing and prevents useful output, ask up to 3 targeted clarifying questions; otherwise, state explicit assumptions.\n2. Apply the core task using best practices for video ai.\n3. For video prompts, include duration, camera movements, scene descriptions, and style references.\n4. Deliver a structured response.\n\nOutput format:\n- Brief objective\n- Assumptions (if any)\n- Deliverable with concrete, actionable details\n- Risks or tradeoffs\n- Next steps\n\n## Example Output\n\nA 20-second cinematic product demo: close-up of creator searching prompts, smooth push-in, quick cuts to categories, clean studio lighting.\n\n",
       "githubPath": "prompts/video-ai/veo/veo-product-demo.md"
+    },
+    {
+      "id": "coding-ai-vscode-vscode-extension-prompt",
+      "slug": "coding-ai/vscode/vscode-extension-prompt",
+      "title": "VS Code Extension Workflow",
+      "description": "Guides developers through building, testing, and publishing VS Code extensions with proper scaffolding, API usage, and marketplace submission.",
+      "category": "coding-ai",
+      "subcategory": "vscode",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Cursor"
+      ],
+      "useCases": [
+        "Create VS Code extensions",
+        "Debug extension issues",
+        "Prepare marketplace submission"
+      ],
+      "tags": [
+        "coding-ai",
+        "vscode",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "cursor",
+        "vs",
+        "code",
+        "extension",
+        "workflow"
+      ],
+      "prompt": "Act as a senior VS Code extension developer. Your objective: guides developers through building, testing, and publishing VS Code extensions.\n\nCore task:\nHelp me create a VS Code extension for {{feature}}. Include extension manifest structure, activation events, command registration, API usage, testing strategy, and marketplace publishing steps.\n\nInputs to consider:\n- {{feature}}\n- {{audience}}\n- {{goal}}\n- {{context}}\n- {{constraints}}\n\nWorkflow:\n1. Review the inputs above. If required context is missing and prevents useful output, ask up to 3 targeted clarifying questions; otherwise, state explicit assumptions.\n2. Apply the core task using best practices for coding ai.\n3. For code changes, include file paths, test commands, security and performance considerations.\n4. Deliver a structured response.\n\nOutput format:\n- Brief objective\n- Assumptions (if any)\n- Deliverable with concrete, actionable details\n- Risks or tradeoffs\n- Next steps",
+      "exampleOutput": "package.json manifest with contributes.commands, activationEvents, and engines VS Code version. src/extension.ts with activate/deactivate functions and proper API calls.",
+      "markdown": "# VS Code Extension Workflow\n\n## Description\nGuides developers through building, testing, and publishing VS Code extensions with proper scaffolding, API usage, and marketplace submission.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Cursor\n\n## Use Cases\n- Create VS Code extensions\n- Debug extension issues\n- Prepare marketplace submission\n\n## Prompt\n\nAct as a senior VS Code extension developer. Your objective: guides developers through building, testing, and publishing VS Code extensions.\n\nCore task:\nHelp me create a VS Code extension for {{feature}}. Include extension manifest structure, activation events, command registration, API usage, testing strategy, and marketplace publishing steps.\n\nInputs to consider:\n- {{feature}}\n- {{audience}}\n- {{goal}}\n- {{context}}\n- {{constraints}}\n\nWorkflow:\n1. Review the inputs above. If required context is missing and prevents useful output, ask up to 3 targeted clarifying questions; otherwise, state explicit assumptions.\n2. Apply the core task using best practices for coding ai.\n3. For code changes, include file paths, test commands, security and performance considerations.\n4. Deliver a structured response.\n\nOutput format:\n- Brief objective\n- Assumptions (if any)\n- Deliverable with concrete, actionable details\n- Risks or tradeoffs\n- Next steps\n\n## Example Output\n\npackage.json manifest with contributes.commands, activationEvents, and engines VS Code version. src/extension.ts with activate/deactivate functions and proper API calls.",
+      "githubPath": "prompts/coding-ai/vscode/vscode-extension-prompt.md"
     },
     {
       "id": "productivity-time-management-weekly-planning-system",
