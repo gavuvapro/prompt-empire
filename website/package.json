@@ -1,0 +1,42 @@
+{
+  "name": "prompt-empir-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run generate:index && next dev",
+    "build": "npm run generate:index && next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit",
+    "generate:index": "node scripts/generate-index.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "clsx": "^2.1.1",
+    "fuse.js": "^7.0.0",
+    "lucide-react": "^0.468.0",
+    "next": "^16.2.9",
+    "next-themes": "^0.4.6",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-markdown": "^9.0.1",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.0",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@types/node": "^20.14.10",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.2.9",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}

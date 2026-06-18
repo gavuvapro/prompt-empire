@@ -1,0 +1,2580 @@
+{
+  "generatedAt": "2026-06-18T07:08:00.766Z",
+  "prompts": [
+    {
+      "id": "education-study-prompts-active-recall-coach",
+      "slug": "education/study-prompts/active-recall-coach",
+      "title": "Active Recall Study Coach",
+      "description": "Turns notes into active recall questions and spaced repetition cards.",
+      "category": "education",
+      "subcategory": "study-prompts",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Study exams",
+        "Learn concepts"
+      ],
+      "tags": [
+        "education",
+        "study-prompts",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "active",
+        "recall",
+        "study",
+        "coach"
+      ],
+      "prompt": "Act as a study coach. Convert these notes into active recall questions, cloze cards, common misconceptions, and a 7-day review plan.\n\nNotes:\n{{notes}}",
+      "exampleOutput": "Q: What is the difference between recognition and recall? A: Recognition identifies known information; recall retrieves it without cues.",
+      "markdown": "# Active Recall Study Coach\n\n## Description\nTurns notes into active recall questions and spaced repetition cards.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Study exams\n- Learn concepts\n\n## Prompt\n\nAct as a study coach. Convert these notes into active recall questions, cloze cards, common misconceptions, and a 7-day review plan.\n\nNotes:\n{{notes}}\n\n## Example Output\n\nQ: What is the difference between recognition and recall? A: Recognition identifies known information; recall retrieves it without cues.\n",
+      "githubPath": "prompts/education/study-prompts/active-recall-coach.md"
+    },
+    {
+      "id": "philosophy-critical-thinking-argument-map",
+      "slug": "philosophy/critical-thinking/argument-map",
+      "title": "Argument Map Builder",
+      "description": "Maps arguments into claims, evidence, assumptions, objections, and confidence levels.",
+      "category": "philosophy",
+      "subcategory": "critical-thinking",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Evaluate essays",
+        "Improve reasoning"
+      ],
+      "tags": [
+        "philosophy",
+        "critical-thinking",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "argument",
+        "map",
+        "builder"
+      ],
+      "prompt": "Create an argument map for this claim. Include premises, evidence, hidden assumptions, counterarguments, fallacies to watch for, and what evidence would change the conclusion.\n\nClaim: {{claim}}",
+      "exampleOutput": "Hidden assumption: popularity on GitHub reliably indicates prompt quality, which may not always hold.",
+      "markdown": "# Argument Map Builder\n\n## Description\nMaps arguments into claims, evidence, assumptions, objections, and confidence levels.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Evaluate essays\n- Improve reasoning\n\n## Prompt\n\nCreate an argument map for this claim. Include premises, evidence, hidden assumptions, counterarguments, fallacies to watch for, and what evidence would change the conclusion.\n\nClaim: {{claim}}\n\n## Example Output\n\nHidden assumption: popularity on GitHub reliably indicates prompt quality, which may not always hold.\n",
+      "githubPath": "prompts/philosophy/critical-thinking/argument-map.md"
+    },
+    {
+      "id": "sports-basketball-basketball-skill-workout",
+      "slug": "sports/basketball/basketball-skill-workout",
+      "title": "Basketball Skill Workout",
+      "description": "Designs basketball skill workouts for shooting, handling, defense, or conditioning.",
+      "category": "sports",
+      "subcategory": "basketball",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Improve shooting",
+        "Plan solo workouts"
+      ],
+      "tags": [
+        "sports",
+        "basketball",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "skill",
+        "workout"
+      ],
+      "prompt": "Create a basketball workout for {{skill_goal}} lasting {{duration}}. Include warm-up, skill blocks, constraints, scoring system, conditioning finisher, cooldown, and progression.",
+      "exampleOutput": "Scoring: make 7/10 corner threes before moving to wing threes; reset after two misses.",
+      "markdown": "# Basketball Skill Workout\n\n## Description\nDesigns basketball skill workouts for shooting, handling, defense, or conditioning.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Improve shooting\n- Plan solo workouts\n\n## Prompt\n\nCreate a basketball workout for {{skill_goal}} lasting {{duration}}. Include warm-up, skill blocks, constraints, scoring system, conditioning finisher, cooldown, and progression.\n\n## Example Output\n\nScoring: make 7/10 corner threes before moving to wing threes; reset after two misses.\n",
+      "githubPath": "prompts/sports/basketball/basketball-skill-workout.md"
+    },
+    {
+      "id": "coding-ai-bolt-bolt-app-prompt",
+      "slug": "coding-ai/bolt/bolt-app-prompt",
+      "title": "Bolt Full-Stack App Prompt",
+      "description": "Generates Bolt prompts for full-stack web apps.",
+      "category": "coding-ai",
+      "subcategory": "bolt",
+      "models": [
+        "Bolt",
+        "ChatGPT",
+        "Claude"
+      ],
+      "useCases": [
+        "Rapid prototypes",
+        "Build demos"
+      ],
+      "tags": [
+        "coding-ai",
+        "bolt",
+        "chatgpt",
+        "claude",
+        "full-stack",
+        "app",
+        "prompt"
+      ],
+      "prompt": "Write a Bolt prompt for a production-style {{app_type}}. Include UI style, routes, components, state, validation, mock data, responsive behavior, and deployment notes.",
+      "exampleOutput": "Build a polished prompt library with local JSON data, dark mode, copy buttons, and accessible search filters.",
+      "markdown": "# Bolt Full-Stack App Prompt\n\n## Description\nGenerates Bolt prompts for full-stack web apps.\n\n## Best AI Models\n- Bolt\n- ChatGPT\n- Claude\n\n## Use Cases\n- Rapid prototypes\n- Build demos\n\n## Prompt\n\nWrite a Bolt prompt for a production-style {{app_type}}. Include UI style, routes, components, state, validation, mock data, responsive behavior, and deployment notes.\n\n## Example Output\n\nBuild a polished prompt library with local JSON data, dark mode, copy buttons, and accessible search filters.\n",
+      "githubPath": "prompts/coding-ai/bolt/bolt-app-prompt.md"
+    },
+    {
+      "id": "design-branding-brand-strategy-sprint",
+      "slug": "design/branding/brand-strategy-sprint",
+      "title": "Brand Strategy Sprint",
+      "description": "Produces a concise brand strategy with positioning, voice, values, and messaging pillars.",
+      "category": "design",
+      "subcategory": "branding",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Launch brands",
+        "Refresh positioning"
+      ],
+      "tags": [
+        "design",
+        "branding",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "brand",
+        "strategy",
+        "sprint"
+      ],
+      "prompt": "Act as a brand strategist. Develop a brand strategy for {{company}}. Include audience, category, positioning statement, promise, personality, voice, messaging pillars, proof points, and anti-patterns.\n\nContext: {{context}}",
+      "exampleOutput": "Positioning: For independent creators, Prompt Empir is the professional prompt library that saves time with vetted, reusable prompts.",
+      "markdown": "# Brand Strategy Sprint\n\n## Description\nProduces a concise brand strategy with positioning, voice, values, and messaging pillars.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Launch brands\n- Refresh positioning\n\n## Prompt\n\nAct as a brand strategist. Develop a brand strategy for {{company}}. Include audience, category, positioning statement, promise, personality, voice, messaging pillars, proof points, and anti-patterns.\n\nContext: {{context}}\n\n## Example Output\n\nPositioning: For independent creators, Prompt Empir is the professional prompt library that saves time with vetted, reusable prompts.\n",
+      "githubPath": "prompts/design/branding/brand-strategy-sprint.md"
+    },
+    {
+      "id": "general-ai-chatgpt-chatgpt-strategic-advisor",
+      "slug": "general-ai/chatgpt/chatgpt-strategic-advisor",
+      "title": "ChatGPT Strategic Advisor",
+      "description": "Uses ChatGPT as a structured strategic advisor with assumptions and next actions.",
+      "category": "general-ai",
+      "subcategory": "chatgpt",
+      "models": [
+        "ChatGPT"
+      ],
+      "useCases": [
+        "Make decisions",
+        "Plan projects"
+      ],
+      "tags": [
+        "general-ai",
+        "chatgpt",
+        "strategic",
+        "advisor"
+      ],
+      "prompt": "Act as a strategic advisor. Help me solve {{problem}}. Ask up to 3 clarifying questions if needed, state assumptions, analyze options, recommend a path, and give a 7-day action plan.",
+      "exampleOutput": "Recommendation: start with a narrow professional audience and expand categories after contribution workflow is reliable.",
+      "markdown": "# ChatGPT Strategic Advisor\n\n## Description\nUses ChatGPT as a structured strategic advisor with assumptions and next actions.\n\n## Best AI Models\n- ChatGPT\n\n## Use Cases\n- Make decisions\n- Plan projects\n\n## Prompt\n\nAct as a strategic advisor. Help me solve {{problem}}. Ask up to 3 clarifying questions if needed, state assumptions, analyze options, recommend a path, and give a 7-day action plan.\n\n## Example Output\n\nRecommendation: start with a narrow professional audience and expand categories after contribution workflow is reliable.\n",
+      "githubPath": "prompts/general-ai/chatgpt/chatgpt-strategic-advisor.md"
+    },
+    {
+      "id": "general-ai-claude-claude-long-context-analyst",
+      "slug": "general-ai/claude/claude-long-context-analyst",
+      "title": "Claude Long-Context Analyst",
+      "description": "Optimized for careful long-context analysis and synthesis.",
+      "category": "general-ai",
+      "subcategory": "claude",
+      "models": [
+        "Claude"
+      ],
+      "useCases": [
+        "Analyze documents",
+        "Summarize research"
+      ],
+      "tags": [
+        "general-ai",
+        "claude",
+        "long-context",
+        "analyst"
+      ],
+      "prompt": "Analyze the following long document. Extract key claims, evidence, contradictions, risks, open questions, and an executive summary. Quote exact passages when supporting important points.\n\nDocument:\n{{document}}",
+      "exampleOutput": "Executive summary: the proposal is strong on website UX but needs stronger governance for prompt quality review.",
+      "markdown": "# Claude Long-Context Analyst\n\n## Description\nOptimized for careful long-context analysis and synthesis.\n\n## Best AI Models\n- Claude\n\n## Use Cases\n- Analyze documents\n- Summarize research\n\n## Prompt\n\nAnalyze the following long document. Extract key claims, evidence, contradictions, risks, open questions, and an executive summary. Quote exact passages when supporting important points.\n\nDocument:\n{{document}}\n\n## Example Output\n\nExecutive summary: the proposal is strong on website UX but needs stronger governance for prompt quality review.\n",
+      "githubPath": "prompts/general-ai/claude/claude-long-context-analyst.md"
+    },
+    {
+      "id": "coding-ai-cursor-cursor-agent-task",
+      "slug": "coding-ai/cursor/cursor-agent-task",
+      "title": "Cursor Agent Task Spec",
+      "description": "Creates precise agent instructions for Cursor to implement code safely.",
+      "category": "coding-ai",
+      "subcategory": "cursor",
+      "models": [
+        "Cursor",
+        "Claude",
+        "ChatGPT",
+        "DeepSeek"
+      ],
+      "useCases": [
+        "Use AI coding agents",
+        "Reduce bad edits"
+      ],
+      "tags": [
+        "coding-ai",
+        "cursor",
+        "claude",
+        "chatgpt",
+        "deepseek",
+        "agent",
+        "task",
+        "spec"
+      ],
+      "prompt": "Write a Cursor task spec for implementing {{feature}}. Include files to inspect, acceptance criteria, constraints, test commands, edge cases, security notes, and a requirement to explain changes before editing.",
+      "exampleOutput": "Acceptance: npm run typecheck and npm run lint pass; search filters update without page reload.",
+      "markdown": "# Cursor Agent Task Spec\n\n## Description\nCreates precise agent instructions for Cursor to implement code safely.\n\n## Best AI Models\n- Cursor\n- Claude\n- ChatGPT\n- DeepSeek\n\n## Use Cases\n- Use AI coding agents\n- Reduce bad edits\n\n## Prompt\n\nWrite a Cursor task spec for implementing {{feature}}. Include files to inspect, acceptance criteria, constraints, test commands, edge cases, security notes, and a requirement to explain changes before editing.\n\n## Example Output\n\nAcceptance: npm run typecheck and npm run lint pass; search filters update without page reload.\n",
+      "githubPath": "prompts/coding-ai/cursor/cursor-agent-task.md"
+    },
+    {
+      "id": "business-customer-support-support-macro-builder",
+      "slug": "business/customer-support/support-macro-builder",
+      "title": "Customer Support Macro Builder",
+      "description": "Creates empathetic support macros for common customer scenarios.",
+      "category": "business",
+      "subcategory": "customer-support",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Improve helpdesk quality",
+        "Reduce response time"
+      ],
+      "tags": [
+        "business",
+        "customer-support",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "customer",
+        "support",
+        "macro",
+        "builder"
+      ],
+      "prompt": "Write support macros for {{scenario}}. Include empathetic opening, diagnosis questions, step-by-step fix, escalation criteria, closing, and tone variants for friendly, formal, and concise.",
+      "exampleOutput": "Thanks for flagging this — I can see why that would interrupt your workflow. Let’s check two things first.",
+      "markdown": "# Customer Support Macro Builder\n\n## Description\nCreates empathetic support macros for common customer scenarios.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Improve helpdesk quality\n- Reduce response time\n\n## Prompt\n\nWrite support macros for {{scenario}}. Include empathetic opening, diagnosis questions, step-by-step fix, escalation criteria, closing, and tone variants for friendly, formal, and concise.\n\n## Example Output\n\nThanks for flagging this — I can see why that would interrupt your workflow. Let’s check two things first.\n",
+      "githubPath": "prompts/business/customer-support/support-macro-builder.md"
+    },
+    {
+      "id": "image-ai-dalle-dalle-product-mockup",
+      "slug": "image-ai/dalle/dalle-product-mockup",
+      "title": "DALL-E Product Mockup",
+      "description": "Creates clear DALL-E prompts for product and interface mockups.",
+      "category": "image-ai",
+      "subcategory": "dalle",
+      "models": [
+        "DALL-E"
+      ],
+      "useCases": [
+        "Generate mockups",
+        "Explore concepts"
+      ],
+      "tags": [
+        "image-ai",
+        "dalle",
+        "dall-e",
+        "product",
+        "mockup"
+      ],
+      "prompt": "Write a DALL-E prompt for a clean product mockup of {{product}}. Specify object, environment, materials, lighting, camera angle, background, and what text to avoid.",
+      "exampleOutput": "A minimalist laptop mockup displaying an abstract prompt library dashboard, studio lighting, soft gray background, no readable text.",
+      "markdown": "# DALL-E Product Mockup\n\n## Description\nCreates clear DALL-E prompts for product and interface mockups.\n\n## Best AI Models\n- DALL-E\n\n## Use Cases\n- Generate mockups\n- Explore concepts\n\n## Prompt\n\nWrite a DALL-E prompt for a clean product mockup of {{product}}. Specify object, environment, materials, lighting, camera angle, background, and what text to avoid.\n\n## Example Output\n\nA minimalist laptop mockup displaying an abstract prompt library dashboard, studio lighting, soft gray background, no readable text.\n",
+      "githubPath": "prompts/image-ai/dalle/dalle-product-mockup.md"
+    },
+    {
+      "id": "development-databases-database-schema-review",
+      "slug": "development/databases/database-schema-review",
+      "title": "Database Schema Review",
+      "description": "Reviews relational or document database schemas for integrity, performance, and future migrations.",
+      "category": "development",
+      "subcategory": "databases",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "DeepSeek"
+      ],
+      "useCases": [
+        "Design new tables",
+        "Find indexing issues"
+      ],
+      "tags": [
+        "development",
+        "databases",
+        "chatgpt",
+        "claude",
+        "deepseek",
+        "database",
+        "schema",
+        "review"
+      ],
+      "prompt": "Act as a database architect. Review this schema for normalization, constraints, indexes, query patterns, migrations, multi-tenancy, security, and backup implications. Return concrete DDL improvements.\n\nSchema:\n{{schema}}\n\nExpected queries:\n{{queries}}",
+      "exampleOutput": "Add a composite index on (organization_id, created_at DESC) for the activity feed query and enforce unique slugs per organization.",
+      "markdown": "# Database Schema Review\n\n## Description\nReviews relational or document database schemas for integrity, performance, and future migrations.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- DeepSeek\n\n## Use Cases\n- Design new tables\n- Find indexing issues\n\n## Prompt\n\nAct as a database architect. Review this schema for normalization, constraints, indexes, query patterns, migrations, multi-tenancy, security, and backup implications. Return concrete DDL improvements.\n\nSchema:\n{{schema}}\n\nExpected queries:\n{{queries}}\n\n## Example Output\n\nAdd a composite index on (organization_id, created_at DESC) for the activity feed query and enforce unique slugs per organization.\n",
+      "githubPath": "prompts/development/databases/database-schema-review.md"
+    },
+    {
+      "id": "general-ai-deepseek-deepseek-reasoning-debugger",
+      "slug": "general-ai/deepseek/deepseek-reasoning-debugger",
+      "title": "DeepSeek Reasoning Debugger",
+      "description": "Uses stepwise reasoning to debug complex technical or analytical problems.",
+      "category": "general-ai",
+      "subcategory": "deepseek",
+      "models": [
+        "DeepSeek"
+      ],
+      "useCases": [
+        "Debug logic",
+        "Solve technical problems"
+      ],
+      "tags": [
+        "general-ai",
+        "deepseek",
+        "reasoning",
+        "debugger"
+      ],
+      "prompt": "Solve this problem carefully. Provide a concise reasoning outline, identify hidden assumptions, test edge cases, and give the final answer with verification steps.\n\nProblem: {{problem}}",
+      "exampleOutput": "Verification: run the failing input through both the old and new parser and compare section boundaries.",
+      "markdown": "# DeepSeek Reasoning Debugger\n\n## Description\nUses stepwise reasoning to debug complex technical or analytical problems.\n\n## Best AI Models\n- DeepSeek\n\n## Use Cases\n- Debug logic\n- Solve technical problems\n\n## Prompt\n\nSolve this problem carefully. Provide a concise reasoning outline, identify hidden assumptions, test edge cases, and give the final answer with verification steps.\n\nProblem: {{problem}}\n\n## Example Output\n\nVerification: run the failing input through both the old and new parser and compare section boundaries.\n",
+      "githubPath": "prompts/general-ai/deepseek/deepseek-reasoning-debugger.md"
+    },
+    {
+      "id": "psychology-communication-difficult-conversation-planner",
+      "slug": "psychology/communication/difficult-conversation-planner",
+      "title": "Difficult Conversation Planner",
+      "description": "Prepares respectful difficult conversations with boundaries and scripts.",
+      "category": "psychology",
+      "subcategory": "communication",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Resolve conflict",
+        "Give feedback"
+      ],
+      "tags": [
+        "psychology",
+        "communication",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "difficult",
+        "conversation",
+        "planner"
+      ],
+      "prompt": "Help me prepare for a difficult conversation about {{issue}}. Include goals, facts vs interpretations, empathy statements, boundary language, questions, likely reactions, and a concise script.",
+      "exampleOutput": "Script: “I want to understand what happened and agree on a clearer process for next time.”",
+      "markdown": "# Difficult Conversation Planner\n\n## Description\nPrepares respectful difficult conversations with boundaries and scripts.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Resolve conflict\n- Give feedback\n\n## Prompt\n\nHelp me prepare for a difficult conversation about {{issue}}. Include goals, facts vs interpretations, empathy statements, boundary language, questions, likely reactions, and a concise script.\n\n## Example Output\n\nScript: “I want to understand what happened and agree on a clearer process for next time.”\n",
+      "githubPath": "prompts/psychology/communication/difficult-conversation-planner.md"
+    },
+    {
+      "id": "audio-ai-elevenlabs-elevenlabs-voice-direction",
+      "slug": "audio-ai/elevenlabs/elevenlabs-voice-direction",
+      "title": "ElevenLabs Voice Direction",
+      "description": "Writes voice direction prompts for narration and character reads.",
+      "category": "audio-ai",
+      "subcategory": "elevenlabs",
+      "models": [
+        "ElevenLabs"
+      ],
+      "useCases": [
+        "Create narration",
+        "Direct voice actors"
+      ],
+      "tags": [
+        "audio-ai",
+        "elevenlabs",
+        "voice",
+        "direction"
+      ],
+      "prompt": "Create an ElevenLabs voice direction for {{script_type}}. Include voice profile, pacing, emotion, pronunciation notes, pauses, emphasis, and delivery examples.\n\nScript: {{script}}",
+      "exampleOutput": "Voice: warm expert, medium pace, confident but not salesy. Pause briefly after each benefit.",
+      "markdown": "# ElevenLabs Voice Direction\n\n## Description\nWrites voice direction prompts for narration and character reads.\n\n## Best AI Models\n- ElevenLabs\n\n## Use Cases\n- Create narration\n- Direct voice actors\n\n## Prompt\n\nCreate an ElevenLabs voice direction for {{script_type}}. Include voice profile, pacing, emotion, pronunciation notes, pauses, emphasis, and delivery examples.\n\nScript: {{script}}\n\n## Example Output\n\nVoice: warm expert, medium pace, confident but not salesy. Pause briefly after each benefit.\n",
+      "githubPath": "prompts/audio-ai/elevenlabs/elevenlabs-voice-direction.md"
+    },
+    {
+      "id": "philosophy-ethics-ethical-decision-matrix",
+      "slug": "philosophy/ethics/ethical-decision-matrix",
+      "title": "Ethical Decision Matrix",
+      "description": "Evaluates decisions through multiple ethical frameworks.",
+      "category": "philosophy",
+      "subcategory": "ethics",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Assess product choices",
+        "Prepare policy decisions"
+      ],
+      "tags": [
+        "philosophy",
+        "ethics",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "ethical",
+        "decision",
+        "matrix"
+      ],
+      "prompt": "Analyze this decision using utilitarian, rights-based, justice, virtue, and care ethics perspectives. Include stakeholders, harms, benefits, trade-offs, safeguards, and recommendation.\n\nDecision: {{decision}}",
+      "exampleOutput": "Safeguard: make donation links transparent and ensure free access is not degraded for non-donors.",
+      "markdown": "# Ethical Decision Matrix\n\n## Description\nEvaluates decisions through multiple ethical frameworks.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Assess product choices\n- Prepare policy decisions\n\n## Prompt\n\nAnalyze this decision using utilitarian, rights-based, justice, virtue, and care ethics perspectives. Include stakeholders, harms, benefits, trade-offs, safeguards, and recommendation.\n\nDecision: {{decision}}\n\n## Example Output\n\nSafeguard: make donation links transparent and ensure free access is not degraded for non-donors.\n",
+      "githubPath": "prompts/philosophy/ethics/ethical-decision-matrix.md"
+    },
+    {
+      "id": "writing-blogging-expert-blog-outline",
+      "slug": "writing/blogging/expert-blog-outline",
+      "title": "Expert Blog Outline",
+      "description": "Creates authoritative blog outlines with search intent and original angles.",
+      "category": "writing",
+      "subcategory": "blogging",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Plan articles",
+        "Create thought leadership"
+      ],
+      "tags": [
+        "writing",
+        "blogging",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "expert",
+        "blog",
+        "outline"
+      ],
+      "prompt": "Create an expert blog outline for {{topic}}. Include search intent, thesis, audience, H2/H3 structure, unique examples, data needs, internal links, and expert quote opportunities.",
+      "exampleOutput": "Thesis: High-quality prompt libraries work best when prompts are treated as reusable workflows, not magic phrases.",
+      "markdown": "# Expert Blog Outline\n\n## Description\nCreates authoritative blog outlines with search intent and original angles.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Plan articles\n- Create thought leadership\n\n## Prompt\n\nCreate an expert blog outline for {{topic}}. Include search intent, thesis, audience, H2/H3 structure, unique examples, data needs, internal links, and expert quote opportunities.\n\n## Example Output\n\nThesis: High-quality prompt libraries work best when prompts are treated as reusable workflows, not magic phrases.\n",
+      "githubPath": "prompts/writing/blogging/expert-blog-outline.md"
+    },
+    {
+      "id": "education-explanations-explain-like-expert",
+      "slug": "education/explanations/explain-like-expert",
+      "title": "Explain Like an Expert Teacher",
+      "description": "Explains complex ideas with intuition, analogies, examples, and checks for understanding.",
+      "category": "education",
+      "subcategory": "explanations",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Learn hard concepts",
+        "Teach others"
+      ],
+      "tags": [
+        "education",
+        "explanations",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "explain",
+        "like",
+        "an",
+        "expert"
+      ],
+      "prompt": "Explain {{concept}} to a motivated learner. Start with intuition, then formal definition, analogy, worked example, common mistakes, and five quiz questions. Adjust to level: {{level}}.",
+      "exampleOutput": "Intuition: A database index is like a book index — it speeds up lookup but costs space and maintenance.",
+      "markdown": "# Explain Like an Expert Teacher\n\n## Description\nExplains complex ideas with intuition, analogies, examples, and checks for understanding.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Learn hard concepts\n- Teach others\n\n## Prompt\n\nExplain {{concept}} to a motivated learner. Start with intuition, then formal definition, analogy, worked example, common mistakes, and five quiz questions. Adjust to level: {{level}}.\n\n## Example Output\n\nIntuition: A database index is like a book index — it speeds up lookup but costs space and maintenance.\n",
+      "githubPath": "prompts/education/explanations/explain-like-expert.md"
+    },
+    {
+      "id": "development-expo-expo-debugging-assistant",
+      "slug": "development/expo/expo-debugging-assistant",
+      "title": "Expo Debugging Assistant",
+      "description": "Diagnoses Expo and React Native bugs with a structured reproduction and fix workflow.",
+      "category": "development",
+      "subcategory": "expo",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Cursor",
+        "Replit AI"
+      ],
+      "useCases": [
+        "Fix build errors",
+        "Debug device-specific issues"
+      ],
+      "tags": [
+        "development",
+        "expo",
+        "chatgpt",
+        "claude",
+        "cursor",
+        "replit-ai",
+        "debugging",
+        "assistant"
+      ],
+      "prompt": "You are an Expo senior engineer. Diagnose this issue using the logs, package versions, native capabilities, and reproduction steps. Return likely causes, commands to verify, minimal fix, and prevention notes.\n\nExpo SDK: {{sdk}}\nDevice/platform: {{platform}}\nLogs:\n{{logs}}\nCode/config:\n{{code_or_config}}",
+      "exampleOutput": "Likely cause: the native module requires a development build, but the app is running in Expo Go. Verification: run npx expo-doctor and check plugin configuration.",
+      "markdown": "# Expo Debugging Assistant\n\n## Description\nDiagnoses Expo and React Native bugs with a structured reproduction and fix workflow.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Cursor\n- Replit AI\n\n## Use Cases\n- Fix build errors\n- Debug device-specific issues\n\n## Prompt\n\nYou are an Expo senior engineer. Diagnose this issue using the logs, package versions, native capabilities, and reproduction steps. Return likely causes, commands to verify, minimal fix, and prevention notes.\n\nExpo SDK: {{sdk}}\nDevice/platform: {{platform}}\nLogs:\n{{logs}}\nCode/config:\n{{code_or_config}}\n\n## Example Output\n\nLikely cause: the native module requires a development build, but the app is running in Expo Go. Verification: run npx expo-doctor and check plugin configuration.\n",
+      "githubPath": "prompts/development/expo/expo-debugging-assistant.md"
+    },
+    {
+      "id": "creative-fiction-fiction-scene-generator",
+      "slug": "creative/fiction/fiction-scene-generator",
+      "title": "Fiction Scene Generator",
+      "description": "Drafts fiction scenes with constraints for POV, tension, and style.",
+      "category": "creative",
+      "subcategory": "fiction",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Draft scenes",
+        "Explore character moments"
+      ],
+      "tags": [
+        "creative",
+        "fiction",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "scene",
+        "generator"
+      ],
+      "prompt": "Write a fiction scene with the following constraints. Preserve the requested voice and avoid summarizing.\n\nPOV: {{pov}}\nSetting: {{setting}}\nConflict: {{conflict}}\nTone: {{tone}}\nMust include: {{details}}",
+      "exampleOutput": "The scene opens with the protagonist noticing the missing seal before anyone mentions betrayal.",
+      "markdown": "# Fiction Scene Generator\n\n## Description\nDrafts fiction scenes with constraints for POV, tension, and style.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Draft scenes\n- Explore character moments\n\n## Prompt\n\nWrite a fiction scene with the following constraints. Preserve the requested voice and avoid summarizing.\n\nPOV: {{pov}}\nSetting: {{setting}}\nConflict: {{conflict}}\nTone: {{tone}}\nMust include: {{details}}\n\n## Example Output\n\nThe scene opens with the protagonist noticing the missing seal before anyone mentions betrayal.\n",
+      "githubPath": "prompts/creative/fiction/fiction-scene-generator.md"
+    },
+    {
+      "id": "image-ai-flux-flux-photorealistic-scene",
+      "slug": "image-ai/flux/flux-photorealistic-scene",
+      "title": "Flux Photorealistic Scene",
+      "description": "Generates detailed Flux prompts for photorealistic scenes.",
+      "category": "image-ai",
+      "subcategory": "flux",
+      "models": [
+        "Flux"
+      ],
+      "useCases": [
+        "Create ads",
+        "Generate realistic concepts"
+      ],
+      "tags": [
+        "image-ai",
+        "flux",
+        "photorealistic",
+        "scene"
+      ],
+      "prompt": "Create a Flux prompt for a photorealistic scene: {{scene}}. Include subject details, environment, lighting, camera, texture, mood, and negative prompt.",
+      "exampleOutput": "Photorealistic founder working late in a minimal studio, laptop glow, rain on window, 35mm lens, natural skin texture, no logos.",
+      "markdown": "# Flux Photorealistic Scene\n\n## Description\nGenerates detailed Flux prompts for photorealistic scenes.\n\n## Best AI Models\n- Flux\n\n## Use Cases\n- Create ads\n- Generate realistic concepts\n\n## Prompt\n\nCreate a Flux prompt for a photorealistic scene: {{scene}}. Include subject details, environment, lighting, camera, texture, mood, and negative prompt.\n\n## Example Output\n\nPhotorealistic founder working late in a minimal studio, laptop glow, rain on window, 35mm lens, natural skin texture, no logos.\n",
+      "githubPath": "prompts/image-ai/flux/flux-photorealistic-scene.md"
+    },
+    {
+      "id": "design-flyers-flyer-copy-layout",
+      "slug": "design/flyers/flyer-copy-layout",
+      "title": "Flyer Copy and Layout",
+      "description": "Creates flyer messaging and layout guidance.",
+      "category": "design",
+      "subcategory": "flyers",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Promote events",
+        "Create local campaigns"
+      ],
+      "tags": [
+        "design",
+        "flyers",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "flyer",
+        "copy",
+        "and",
+        "layout"
+      ],
+      "prompt": "Create a one-page flyer for {{offer_or_event}}. Include headline, subheadline, benefits, agenda or offer details, CTA, trust signals, layout structure, and print-friendly notes. Audience: {{audience}}.",
+      "exampleOutput": "Headline: Build Better Prompts in One Afternoon. CTA: Reserve your seat today.",
+      "markdown": "# Flyer Copy and Layout\n\n## Description\nCreates flyer messaging and layout guidance.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Promote events\n- Create local campaigns\n\n## Prompt\n\nCreate a one-page flyer for {{offer_or_event}}. Include headline, subheadline, benefits, agenda or offer details, CTA, trust signals, layout structure, and print-friendly notes. Audience: {{audience}}.\n\n## Example Output\n\nHeadline: Build Better Prompts in One Afternoon. CTA: Reserve your seat today.\n",
+      "githubPath": "prompts/design/flyers/flyer-copy-layout.md"
+    },
+    {
+      "id": "sports-football-football-training-plan",
+      "slug": "sports/football/football-training-plan",
+      "title": "Football Training Plan",
+      "description": "Creates position-specific football training plans.",
+      "category": "sports",
+      "subcategory": "football",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Improve conditioning",
+        "Plan practice"
+      ],
+      "tags": [
+        "sports",
+        "football",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "training",
+        "plan"
+      ],
+      "prompt": "Create a {{weeks}}-week football training plan for a {{position}}. Include technical drills, conditioning, strength, recovery, nutrition reminders, and progress tests. Level: {{level}}.",
+      "exampleOutput": "Week 1 focus: first touch under pressure, short acceleration, and hamstring injury prevention.",
+      "markdown": "# Football Training Plan\n\n## Description\nCreates position-specific football training plans.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Improve conditioning\n- Plan practice\n\n## Prompt\n\nCreate a {{weeks}}-week football training plan for a {{position}}. Include technical drills, conditioning, strength, recovery, nutrition reminders, and progress tests. Level: {{level}}.\n\n## Example Output\n\nWeek 1 focus: first touch under pressure, short acceleration, and hamstring injury prevention.\n",
+      "githubPath": "prompts/sports/football/football-training-plan.md"
+    },
+    {
+      "id": "career-freelancing-freelance-proposal-writer",
+      "slug": "career/freelancing/freelance-proposal-writer",
+      "title": "Freelance Proposal Writer",
+      "description": "Writes client-focused freelance proposals.",
+      "category": "career",
+      "subcategory": "freelancing",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Win projects",
+        "Respond to briefs"
+      ],
+      "tags": [
+        "career",
+        "freelancing",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "freelance",
+        "proposal",
+        "writer"
+      ],
+      "prompt": "Write a freelance proposal for this project. Include understanding of the problem, approach, deliverables, timeline, questions, proof, and CTA. Keep it specific and not generic.\n\nClient brief: {{brief}}",
+      "exampleOutput": "I would start by auditing the current prompt workflow, then deliver a searchable prompt library and contribution guide.",
+      "markdown": "# Freelance Proposal Writer\n\n## Description\nWrites client-focused freelance proposals.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Win projects\n- Respond to briefs\n\n## Prompt\n\nWrite a freelance proposal for this project. Include understanding of the problem, approach, deliverables, timeline, questions, proof, and CTA. Keep it specific and not generic.\n\nClient brief: {{brief}}\n\n## Example Output\n\nI would start by auditing the current prompt workflow, then deliver a searchable prompt library and contribution guide.\n",
+      "githubPath": "prompts/career/freelancing/freelance-proposal-writer.md"
+    },
+    {
+      "id": "development-frontend-frontend-performance-audit",
+      "slug": "development/frontend/frontend-performance-audit",
+      "title": "Frontend Performance Audit",
+      "description": "Audits a frontend page or component for speed, accessibility, Core Web Vitals, and maintainability.",
+      "category": "development",
+      "subcategory": "frontend",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Cursor"
+      ],
+      "useCases": [
+        "Improve Lighthouse scores",
+        "Find render-blocking and accessibility issues"
+      ],
+      "tags": [
+        "development",
+        "frontend",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "cursor",
+        "performance",
+        "audit"
+      ],
+      "prompt": "Act as a senior frontend performance engineer. Audit the following page, component, or Lighthouse report. Return prioritized findings, root causes, and exact fixes. Include accessibility, Core Web Vitals, bundle size, caching, rendering strategy, and testing steps.\n\nContext:\n- App/framework: {{framework}}\n- Page/component: {{page_or_component}}\n- Current metrics or code: {{metrics_or_code}}\n- Constraints: {{constraints}}",
+      "exampleOutput": "Priority 1: reduce unused JavaScript in the dashboard route. Root cause: the charting package is imported globally. Fix: dynamically import the chart widget and prefetch only after user intent.",
+      "markdown": "# Frontend Performance Audit\n\n## Description\nAudits a frontend page or component for speed, accessibility, Core Web Vitals, and maintainability.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Cursor\n\n## Use Cases\n- Improve Lighthouse scores\n- Find render-blocking and accessibility issues\n\n## Prompt\n\nAct as a senior frontend performance engineer. Audit the following page, component, or Lighthouse report. Return prioritized findings, root causes, and exact fixes. Include accessibility, Core Web Vitals, bundle size, caching, rendering strategy, and testing steps.\n\nContext:\n- App/framework: {{framework}}\n- Page/component: {{page_or_component}}\n- Current metrics or code: {{metrics_or_code}}\n- Constraints: {{constraints}}\n\n## Example Output\n\nPriority 1: reduce unused JavaScript in the dashboard route. Root cause: the charting package is imported globally. Fix: dynamically import the chart widget and prefetch only after user intent.\n",
+      "githubPath": "prompts/development/frontend/frontend-performance-audit.md"
+    },
+    {
+      "id": "general-ai-gemini-gemini-multimodal-analyst",
+      "slug": "general-ai/gemini/gemini-multimodal-analyst",
+      "title": "Gemini Multimodal Analyst",
+      "description": "Structures analysis for text, image, video, or mixed inputs.",
+      "category": "general-ai",
+      "subcategory": "gemini",
+      "models": [
+        "Gemini"
+      ],
+      "useCases": [
+        "Analyze screenshots",
+        "Review presentations"
+      ],
+      "tags": [
+        "general-ai",
+        "gemini",
+        "multimodal",
+        "analyst"
+      ],
+      "prompt": "Analyze the provided multimodal input about {{topic}}. Describe observable details first, then infer meaning, identify uncertainties, and recommend next steps. Separate facts from interpretations.",
+      "exampleOutput": "Observed: the UI has clear cards but low contrast in secondary labels. Interpretation: users may miss filtering controls.",
+      "markdown": "# Gemini Multimodal Analyst\n\n## Description\nStructures analysis for text, image, video, or mixed inputs.\n\n## Best AI Models\n- Gemini\n\n## Use Cases\n- Analyze screenshots\n- Review presentations\n\n## Prompt\n\nAnalyze the provided multimodal input about {{topic}}. Describe observable details first, then infer meaning, identify uncertainties, and recommend next steps. Separate facts from interpretations.\n\n## Example Output\n\nObserved: the UI has clear cards but low contrast in secondary labels. Interpretation: users may miss filtering controls.\n",
+      "githubPath": "prompts/general-ai/gemini/gemini-multimodal-analyst.md"
+    },
+    {
+      "id": "coding-ai-github-copilot-copilot-inline-instruction",
+      "slug": "coding-ai/github-copilot/copilot-inline-instruction",
+      "title": "GitHub Copilot Inline Instruction",
+      "description": "Creates concise Copilot instructions for targeted code edits.",
+      "category": "coding-ai",
+      "subcategory": "github-copilot",
+      "models": [
+        "GitHub Copilot"
+      ],
+      "useCases": [
+        "Refactor functions",
+        "Generate tests"
+      ],
+      "tags": [
+        "coding-ai",
+        "github-copilot",
+        "github",
+        "copilot",
+        "inline",
+        "instruction"
+      ],
+      "prompt": "Create a concise GitHub Copilot instruction to {{task}} in this file. Mention constraints, style, tests, and what not to change.\n\nFile context: {{context}}",
+      "exampleOutput": "Add unit tests for parsePromptMarkdown covering missing optional sections. Do not change exported types.",
+      "markdown": "# GitHub Copilot Inline Instruction\n\n## Description\nCreates concise Copilot instructions for targeted code edits.\n\n## Best AI Models\n- GitHub Copilot\n\n## Use Cases\n- Refactor functions\n- Generate tests\n\n## Prompt\n\nCreate a concise GitHub Copilot instruction to {{task}} in this file. Mention constraints, style, tests, and what not to change.\n\nFile context: {{context}}\n\n## Example Output\n\nAdd unit tests for parsePromptMarkdown covering missing optional sections. Do not change exported types.\n",
+      "githubPath": "prompts/coding-ai/github-copilot/copilot-inline-instruction.md"
+    },
+    {
+      "id": "general-ai-grok-grok-trend-briefing",
+      "slug": "general-ai/grok/grok-trend-briefing",
+      "title": "Grok Trend Briefing",
+      "description": "Creates punchy trend briefings and contrarian takes.",
+      "category": "general-ai",
+      "subcategory": "grok",
+      "models": [
+        "Grok"
+      ],
+      "useCases": [
+        "Analyze trends",
+        "Create social commentary"
+      ],
+      "tags": [
+        "general-ai",
+        "grok",
+        "trend",
+        "briefing"
+      ],
+      "prompt": "Create a trend briefing on {{topic}}. Include what is happening, why it matters, evidence to verify, contrarian angle, risks, and a concise social post. Keep it sharp but factual.",
+      "exampleOutput": "Contrarian angle: prompt libraries are less about prompts and more about reusable decision workflows.",
+      "markdown": "# Grok Trend Briefing\n\n## Description\nCreates punchy trend briefings and contrarian takes.\n\n## Best AI Models\n- Grok\n\n## Use Cases\n- Analyze trends\n- Create social commentary\n\n## Prompt\n\nCreate a trend briefing on {{topic}}. Include what is happening, why it matters, evidence to verify, contrarian angle, risks, and a concise social post. Keep it sharp but factual.\n\n## Example Output\n\nContrarian angle: prompt libraries are less about prompts and more about reusable decision workflows.\n",
+      "githubPath": "prompts/general-ai/grok/grok-trend-briefing.md"
+    },
+    {
+      "id": "psychology-habits-habit-design-plan",
+      "slug": "psychology/habits/habit-design-plan",
+      "title": "Habit Design Plan",
+      "description": "Designs habit systems using cues, rewards, friction, and tracking.",
+      "category": "psychology",
+      "subcategory": "habits",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Build routines",
+        "Break bad habits"
+      ],
+      "tags": [
+        "psychology",
+        "habits",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "habit",
+        "design",
+        "plan"
+      ],
+      "prompt": "Design a habit plan for {{habit_goal}}. Include identity statement, cue, tiny action, reward, environment design, friction reduction, relapse plan, and tracking method.",
+      "exampleOutput": "Tiny action: after opening the laptop, review one prompt and mark it accepted or needs edits.",
+      "markdown": "# Habit Design Plan\n\n## Description\nDesigns habit systems using cues, rewards, friction, and tracking.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Build routines\n- Break bad habits\n\n## Prompt\n\nDesign a habit plan for {{habit_goal}}. Include identity statement, cue, tiny action, reward, environment design, friction reduction, relapse plan, and tracking method.\n\n## Example Output\n\nTiny action: after opening the laptop, review one prompt and mark it accepted or needs edits.\n",
+      "githubPath": "prompts/psychology/habits/habit-design-plan.md"
+    },
+    {
+      "id": "psychology-human-behavior-behavior-analysis",
+      "slug": "psychology/human-behavior/behavior-analysis",
+      "title": "Human Behavior Analysis",
+      "description": "Analyzes behavior patterns ethically without diagnosing.",
+      "category": "psychology",
+      "subcategory": "human-behavior",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Understand decisions",
+        "Improve communication"
+      ],
+      "tags": [
+        "psychology",
+        "human-behavior",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "human",
+        "behavior",
+        "analysis"
+      ],
+      "prompt": "Analyze this behavior pattern using evidence-informed psychology. Do not diagnose. Include context, possible motivations, cognitive biases, environmental factors, alternative explanations, and respectful next steps.\n\nSituation: {{situation}}",
+      "exampleOutput": "Alternative explanation: avoidance may reflect unclear expectations rather than low motivation.",
+      "markdown": "# Human Behavior Analysis\n\n## Description\nAnalyzes behavior patterns ethically without diagnosing.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Understand decisions\n- Improve communication\n\n## Prompt\n\nAnalyze this behavior pattern using evidence-informed psychology. Do not diagnose. Include context, possible motivations, cognitive biases, environmental factors, alternative explanations, and respectful next steps.\n\nSituation: {{situation}}\n\n## Example Output\n\nAlternative explanation: avoidance may reflect unclear expectations rather than low motivation.\n",
+      "githubPath": "prompts/psychology/human-behavior/behavior-analysis.md"
+    },
+    {
+      "id": "development-devops-incident-postmortem",
+      "slug": "development/devops/incident-postmortem",
+      "title": "Incident Postmortem Generator",
+      "description": "Creates blameless incident postmortems with timeline, impact, causes, and action items.",
+      "category": "development",
+      "subcategory": "devops",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "After outages",
+        "Improve SRE process"
+      ],
+      "tags": [
+        "development",
+        "devops",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "incident",
+        "postmortem",
+        "generator"
+      ],
+      "prompt": "Write a blameless incident postmortem from the notes below. Include summary, customer impact, timeline, detection, root causes, contributing factors, what went well, what went poorly, and action items with owners.\n\nIncident notes:\n{{notes}}",
+      "exampleOutput": "Action item: add synthetic checkout monitoring in two regions. Owner: Platform. Due: 2026-07-01.",
+      "markdown": "# Incident Postmortem Generator\n\n## Description\nCreates blameless incident postmortems with timeline, impact, causes, and action items.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- After outages\n- Improve SRE process\n\n## Prompt\n\nWrite a blameless incident postmortem from the notes below. Include summary, customer impact, timeline, detection, root causes, contributing factors, what went well, what went poorly, and action items with owners.\n\nIncident notes:\n{{notes}}\n\n## Example Output\n\nAction item: add synthetic checkout monitoring in two regions. Owner: Platform. Due: 2026-07-01.\n",
+      "githubPath": "prompts/development/devops/incident-postmortem.md"
+    },
+    {
+      "id": "social-media-instagram-instagram-content-calendar",
+      "slug": "social-media/instagram/instagram-content-calendar",
+      "title": "Instagram Content Calendar",
+      "description": "Creates Instagram content calendars with hooks, captions, and visual ideas.",
+      "category": "social-media",
+      "subcategory": "instagram",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Plan posts",
+        "Grow creators"
+      ],
+      "tags": [
+        "social-media",
+        "instagram",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "content",
+        "calendar"
+      ],
+      "prompt": "Create a 14-day Instagram content calendar for {{niche}}. Include post type, hook, caption angle, visual concept, CTA, hashtags, and repurposing notes.",
+      "exampleOutput": "Reel hook: “3 prompts every startup founder should keep pinned.”",
+      "markdown": "# Instagram Content Calendar\n\n## Description\nCreates Instagram content calendars with hooks, captions, and visual ideas.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Plan posts\n- Grow creators\n\n## Prompt\n\nCreate a 14-day Instagram content calendar for {{niche}}. Include post type, hook, caption angle, visual concept, CTA, hashtags, and repurposing notes.\n\n## Example Output\n\nReel hook: “3 prompts every startup founder should keep pinned.”\n",
+      "githubPath": "prompts/social-media/instagram/instagram-content-calendar.md"
+    },
+    {
+      "id": "career-interviews-interview-practice-coach",
+      "slug": "career/interviews/interview-practice-coach",
+      "title": "Interview Practice Coach",
+      "description": "Runs structured interview practice with feedback.",
+      "category": "career",
+      "subcategory": "interviews",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Prepare behavioral interviews",
+        "Practice technical answers"
+      ],
+      "tags": [
+        "career",
+        "interviews",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "interview",
+        "practice",
+        "coach"
+      ],
+      "prompt": "Act as an interview coach for {{role}}. Ask one question at a time. After my answer, score clarity, relevance, structure, and evidence. Give a stronger sample answer and next question.",
+      "exampleOutput": "Feedback: your answer had clear context but needs a measurable result. Add the adoption rate or time saved.",
+      "markdown": "# Interview Practice Coach\n\n## Description\nRuns structured interview practice with feedback.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Prepare behavioral interviews\n- Practice technical answers\n\n## Prompt\n\nAct as an interview coach for {{role}}. Ask one question at a time. After my answer, score clarity, relevance, structure, and evidence. Give a stronger sample answer and next question.\n\n## Example Output\n\nFeedback: your answer had clear context but needs a measurable result. Add the adoption rate or time saved.\n",
+      "githubPath": "prompts/career/interviews/interview-practice-coach.md"
+    },
+    {
+      "id": "finance-investing-investment-research-checklist",
+      "slug": "finance/investing/investment-research-checklist",
+      "title": "Investment Research Checklist",
+      "description": "Creates an educational investment research checklist without giving personalized advice.",
+      "category": "finance",
+      "subcategory": "investing",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Perplexity"
+      ],
+      "useCases": [
+        "Research companies",
+        "Avoid hype"
+      ],
+      "tags": [
+        "finance",
+        "investing",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "perplexity",
+        "investment",
+        "research",
+        "checklist"
+      ],
+      "prompt": "Create an educational investment research checklist for {{asset_or_company}}. Include business model, risks, valuation questions, financial quality, competitive position, management, scenarios, and red flags. Do not tell me whether to buy or sell.",
+      "exampleOutput": "Red flag: revenue growth depends on one customer or unsustainably high incentives.",
+      "markdown": "# Investment Research Checklist\n\n## Description\nCreates an educational investment research checklist without giving personalized advice.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Perplexity\n\n## Use Cases\n- Research companies\n- Avoid hype\n\n## Prompt\n\nCreate an educational investment research checklist for {{asset_or_company}}. Include business model, risks, valuation questions, financial quality, competitive position, management, scenarios, and red flags. Do not tell me whether to buy or sell.\n\n## Example Output\n\nRed flag: revenue growth depends on one customer or unsustainably high incentives.\n",
+      "githubPath": "prompts/finance/investing/investment-research-checklist.md"
+    },
+    {
+      "id": "video-ai-kling-kling-cinematic-scene",
+      "slug": "video-ai/kling/kling-cinematic-scene",
+      "title": "Kling Cinematic Scene Prompt",
+      "description": "Creates cinematic Kling prompts with motion and atmosphere details.",
+      "category": "video-ai",
+      "subcategory": "kling",
+      "models": [
+        "Kling"
+      ],
+      "useCases": [
+        "Generate cinematic clips",
+        "Prototype scenes"
+      ],
+      "tags": [
+        "video-ai",
+        "kling",
+        "cinematic",
+        "scene",
+        "prompt"
+      ],
+      "prompt": "Create a Kling prompt for {{scene}}. Include subject, movement, environment, camera path, lighting, physics details, mood, duration, and negative prompt.",
+      "exampleOutput": "Camera glides through a futuristic archive as prompt cards float into constellations, realistic motion, soft particles, 8 seconds.",
+      "markdown": "# Kling Cinematic Scene Prompt\n\n## Description\nCreates cinematic Kling prompts with motion and atmosphere details.\n\n## Best AI Models\n- Kling\n\n## Use Cases\n- Generate cinematic clips\n- Prototype scenes\n\n## Prompt\n\nCreate a Kling prompt for {{scene}}. Include subject, movement, environment, camera path, lighting, physics details, mood, duration, and negative prompt.\n\n## Example Output\n\nCamera glides through a futuristic archive as prompt cards float into constellations, realistic motion, soft particles, 8 seconds.\n",
+      "githubPath": "prompts/video-ai/kling/kling-cinematic-scene.md"
+    },
+    {
+      "id": "writing-copywriting-landing-page-copy",
+      "slug": "writing/copywriting/landing-page-copy",
+      "title": "Landing Page Copy Generator",
+      "description": "Writes conversion-focused landing page copy.",
+      "category": "writing",
+      "subcategory": "copywriting",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Launch products",
+        "A/B test pages"
+      ],
+      "tags": [
+        "writing",
+        "copywriting",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "landing",
+        "page",
+        "copy",
+        "generator"
+      ],
+      "prompt": "Write landing page copy for {{product}}. Include hero headline, subheadline, benefits, features, social proof, objections, FAQ, CTA variants, and tone notes.\n\nAudience: {{audience}}\nOffer: {{offer}}",
+      "exampleOutput": "Headline: The prompt library your team can actually trust.",
+      "markdown": "# Landing Page Copy Generator\n\n## Description\nWrites conversion-focused landing page copy.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Launch products\n- A/B test pages\n\n## Prompt\n\nWrite landing page copy for {{product}}. Include hero headline, subheadline, benefits, features, social proof, objections, FAQ, CTA variants, and tone notes.\n\nAudience: {{audience}}\nOffer: {{offer}}\n\n## Example Output\n\nHeadline: The prompt library your team can actually trust.\n",
+      "githubPath": "prompts/writing/copywriting/landing-page-copy.md"
+    },
+    {
+      "id": "education-language-learning-language-conversation-partner",
+      "slug": "education/language-learning/language-conversation-partner",
+      "title": "Language Conversation Partner",
+      "description": "Creates structured language practice with corrections and vocabulary.",
+      "category": "education",
+      "subcategory": "language-learning",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Practice speaking",
+        "Prepare travel phrases"
+      ],
+      "tags": [
+        "education",
+        "language-learning",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "language",
+        "conversation",
+        "partner"
+      ],
+      "prompt": "Act as a {{language}} conversation partner. Run a role-play about {{scenario}}. Correct mistakes gently, explain grammar, track new vocabulary, and ask follow-up questions at level {{level}}.",
+      "exampleOutput": "Correction: “Je suis allé” is used by masculine speakers; “Je suis allée” if feminine.",
+      "markdown": "# Language Conversation Partner\n\n## Description\nCreates structured language practice with corrections and vocabulary.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Practice speaking\n- Prepare travel phrases\n\n## Prompt\n\nAct as a {{language}} conversation partner. Run a role-play about {{scenario}}. Correct mistakes gently, explain grammar, track new vocabulary, and ask follow-up questions at level {{level}}.\n\n## Example Output\n\nCorrection: “Je suis allé” is used by masculine speakers; “Je suis allée” if feminine.\n",
+      "githubPath": "prompts/education/language-learning/language-conversation-partner.md"
+    },
+    {
+      "id": "image-ai-leonardo-ai-leonardo-concept-art",
+      "slug": "image-ai/leonardo-ai/leonardo-concept-art",
+      "title": "Leonardo AI Concept Art Prompt",
+      "description": "Creates Leonardo AI prompts for concept art and style exploration.",
+      "category": "image-ai",
+      "subcategory": "leonardo-ai",
+      "models": [
+        "Leonardo AI"
+      ],
+      "useCases": [
+        "Game art",
+        "Brand worlds"
+      ],
+      "tags": [
+        "image-ai",
+        "leonardo-ai",
+        "leonardo",
+        "ai",
+        "concept",
+        "art"
+      ],
+      "prompt": "Write a Leonardo AI prompt for {{concept}}. Include art direction, subject, materials, environment, color palette, lighting, render style, and negative prompt.",
+      "exampleOutput": "Ancient library of glowing prompt tablets, cinematic concept art, teal and gold, volumetric light, ultra-detailed, no text.",
+      "markdown": "# Leonardo AI Concept Art Prompt\n\n## Description\nCreates Leonardo AI prompts for concept art and style exploration.\n\n## Best AI Models\n- Leonardo AI\n\n## Use Cases\n- Game art\n- Brand worlds\n\n## Prompt\n\nWrite a Leonardo AI prompt for {{concept}}. Include art direction, subject, materials, environment, color palette, lighting, render style, and negative prompt.\n\n## Example Output\n\nAncient library of glowing prompt tablets, cinematic concept art, teal and gold, volumetric light, ultra-detailed, no text.\n",
+      "githubPath": "prompts/image-ai/leonardo-ai/leonardo-concept-art.md"
+    },
+    {
+      "id": "social-media-linkedin-linkedin-thought-leadership",
+      "slug": "social-media/linkedin/linkedin-thought-leadership",
+      "title": "LinkedIn Thought Leadership Post",
+      "description": "Creates professional LinkedIn posts with insight, story, and practical takeaway.",
+      "category": "social-media",
+      "subcategory": "linkedin",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Build authority",
+        "Share product lessons"
+      ],
+      "tags": [
+        "social-media",
+        "linkedin",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "thought",
+        "leadership",
+        "post"
+      ],
+      "prompt": "Write a LinkedIn post for {{audience}} about {{lesson}}. Use a clear hook, short paragraphs, concrete example, practical takeaway, and discussion question. Tone: {{tone}}.",
+      "exampleOutput": "The best prompts in our library all have one thing in common: they define the role, context, constraints, and output format.",
+      "markdown": "# LinkedIn Thought Leadership Post\n\n## Description\nCreates professional LinkedIn posts with insight, story, and practical takeaway.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Build authority\n- Share product lessons\n\n## Prompt\n\nWrite a LinkedIn post for {{audience}} about {{lesson}}. Use a clear hook, short paragraphs, concrete example, practical takeaway, and discussion question. Tone: {{tone}}.\n\n## Example Output\n\nThe best prompts in our library all have one thing in common: they define the role, context, constraints, and output format.\n",
+      "githubPath": "prompts/social-media/linkedin/linkedin-thought-leadership.md"
+    },
+    {
+      "id": "design-logo-design-logo-concept-generator",
+      "slug": "design/logo-design/logo-concept-generator",
+      "title": "Logo Concept Generator",
+      "description": "Generates image-model-ready prompts for logo concepts.",
+      "category": "design",
+      "subcategory": "logo-design",
+      "models": [
+        "Midjourney",
+        "DALL-E",
+        "Flux",
+        "Stable Diffusion",
+        "Leonardo AI"
+      ],
+      "useCases": [
+        "Explore visual identities",
+        "Create brand marks"
+      ],
+      "tags": [
+        "design",
+        "logo-design",
+        "midjourney",
+        "dall-e",
+        "flux",
+        "stable-diffusion",
+        "leonardo-ai",
+        "logo",
+        "concept",
+        "generator"
+      ],
+      "prompt": "Create 5 distinct logo prompts for {{brand}}. Each prompt must include concept, symbolism, style, typography direction, color palette, constraints, and negative prompt. Optimize for {{image_model}}.\n\nBrand description: {{description}}",
+      "exampleOutput": "Minimal geometric empire crown fused with a chat bubble, black and electric blue, flat vector, high contrast, no mockup, no gradients.",
+      "markdown": "# Logo Concept Generator\n\n## Description\nGenerates image-model-ready prompts for logo concepts.\n\n## Best AI Models\n- Midjourney\n- DALL-E\n- Flux\n- Stable Diffusion\n- Leonardo AI\n\n## Use Cases\n- Explore visual identities\n- Create brand marks\n\n## Prompt\n\nCreate 5 distinct logo prompts for {{brand}}. Each prompt must include concept, symbolism, style, typography direction, color palette, constraints, and negative prompt. Optimize for {{image_model}}.\n\nBrand description: {{description}}\n\n## Example Output\n\nMinimal geometric empire crown fused with a chat bubble, black and electric blue, flat vector, high contrast, no mockup, no gradients.\n",
+      "githubPath": "prompts/design/logo-design/logo-concept-generator.md"
+    },
+    {
+      "id": "coding-ai-lovable-lovable-product-prompt",
+      "slug": "coding-ai/lovable/lovable-product-prompt",
+      "title": "Lovable Product Prompt",
+      "description": "Creates product-focused Lovable prompts for polished app generation.",
+      "category": "coding-ai",
+      "subcategory": "lovable",
+      "models": [
+        "Lovable",
+        "ChatGPT",
+        "Claude"
+      ],
+      "useCases": [
+        "Generate SaaS apps",
+        "Create landing pages"
+      ],
+      "tags": [
+        "coding-ai",
+        "lovable",
+        "chatgpt",
+        "claude",
+        "product",
+        "prompt"
+      ],
+      "prompt": "Write a Lovable prompt for {{product}}. Include user personas, pages, component behavior, database entities, auth assumptions, visual direction, and acceptance criteria.",
+      "exampleOutput": "Visual direction: Vercel-inspired, lots of whitespace, black/white base, subtle gradient accents, crisp cards.",
+      "markdown": "# Lovable Product Prompt\n\n## Description\nCreates product-focused Lovable prompts for polished app generation.\n\n## Best AI Models\n- Lovable\n- ChatGPT\n- Claude\n\n## Use Cases\n- Generate SaaS apps\n- Create landing pages\n\n## Prompt\n\nWrite a Lovable prompt for {{product}}. Include user personas, pages, component behavior, database entities, auth assumptions, visual direction, and acceptance criteria.\n\n## Example Output\n\nVisual direction: Vercel-inspired, lots of whitespace, black/white base, subtle gradient accents, crisp cards.\n",
+      "githubPath": "prompts/coding-ai/lovable/lovable-product-prompt.md"
+    },
+    {
+      "id": "business-marketing-campaign-brief",
+      "slug": "business/marketing/campaign-brief",
+      "title": "Marketing Campaign Brief",
+      "description": "Creates strategic marketing campaign briefs with audience, channels, messaging, and KPIs.",
+      "category": "business",
+      "subcategory": "marketing",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Launch products",
+        "Coordinate campaigns"
+      ],
+      "tags": [
+        "business",
+        "marketing",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "campaign",
+        "brief"
+      ],
+      "prompt": "Create a marketing campaign brief for {{campaign}}. Include audience, insight, positioning, core message, channel plan, creative ideas, budget assumptions, timeline, KPIs, and experiments.",
+      "exampleOutput": "Core message: Stop rewriting prompts from scratch. Start from proven patterns curated for your role.",
+      "markdown": "# Marketing Campaign Brief\n\n## Description\nCreates strategic marketing campaign briefs with audience, channels, messaging, and KPIs.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Launch products\n- Coordinate campaigns\n\n## Prompt\n\nCreate a marketing campaign brief for {{campaign}}. Include audience, insight, positioning, core message, channel plan, creative ideas, budget assumptions, timeline, KPIs, and experiments.\n\n## Example Output\n\nCore message: Stop rewriting prompts from scratch. Start from proven patterns curated for your role.\n",
+      "githubPath": "prompts/business/marketing/campaign-brief.md"
+    },
+    {
+      "id": "image-ai-midjourney-midjourney-editorial-hero",
+      "slug": "image-ai/midjourney/midjourney-editorial-hero",
+      "title": "Midjourney Editorial Hero",
+      "description": "Creates cinematic Midjourney hero images for websites and campaigns.",
+      "category": "image-ai",
+      "subcategory": "midjourney",
+      "models": [
+        "Midjourney"
+      ],
+      "useCases": [
+        "Website hero images",
+        "Campaign visuals"
+      ],
+      "tags": [
+        "image-ai",
+        "midjourney",
+        "editorial",
+        "hero"
+      ],
+      "prompt": "Create a Midjourney prompt for {{subject}}. Include composition, lens, lighting, style references by genre, color palette, mood, aspect ratio, stylize value, and negative constraints.",
+      "exampleOutput": "{{subject}}, editorial technology hero image, luminous glass interface, soft rim light, black and white with blue accent --ar 16:9 --stylize 150 --no text, watermark",
+      "markdown": "# Midjourney Editorial Hero\n\n## Description\nCreates cinematic Midjourney hero images for websites and campaigns.\n\n## Best AI Models\n- Midjourney\n\n## Use Cases\n- Website hero images\n- Campaign visuals\n\n## Prompt\n\nCreate a Midjourney prompt for {{subject}}. Include composition, lens, lighting, style references by genre, color palette, mood, aspect ratio, stylize value, and negative constraints.\n\n## Example Output\n\n{{subject}}, editorial technology hero image, luminous glass interface, soft rim light, black and white with blue accent --ar 16:9 --stylize 150 --no text, watermark\n",
+      "githubPath": "prompts/image-ai/midjourney/midjourney-editorial-hero.md"
+    },
+    {
+      "id": "development-mobile-apps-mobile-release-checklist",
+      "slug": "development/mobile-apps/mobile-release-checklist",
+      "title": "Mobile App Release Checklist",
+      "description": "Creates a release readiness checklist for iOS, Android, Expo, or React Native apps.",
+      "category": "development",
+      "subcategory": "mobile-apps",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Prepare store submissions",
+        "Coordinate QA sign-off"
+      ],
+      "tags": [
+        "development",
+        "mobile-apps",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "mobile",
+        "app",
+        "release",
+        "checklist"
+      ],
+      "prompt": "Act as a mobile release manager. Build a release checklist for {{platform}} covering build configuration, permissions, privacy labels, crash reporting, analytics, accessibility, localization, QA, rollback, and store submission. Include owner, priority, and acceptance criteria columns.",
+      "exampleOutput": "| Item | Owner | Priority | Acceptance criteria |\n| Crash-free sessions monitored | Engineering | High | Dashboard alert configured before release |",
+      "markdown": "# Mobile App Release Checklist\n\n## Description\nCreates a release readiness checklist for iOS, Android, Expo, or React Native apps.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Prepare store submissions\n- Coordinate QA sign-off\n\n## Prompt\n\nAct as a mobile release manager. Build a release checklist for {{platform}} covering build configuration, permissions, privacy labels, crash reporting, analytics, accessibility, localization, QA, rollback, and store submission. Include owner, priority, and acceptance criteria columns.\n\n## Example Output\n\n| Item | Owner | Priority | Acceptance criteria |\n| Crash-free sessions monitored | Engineering | High | Dashboard alert configured before release |\n",
+      "githubPath": "prompts/development/mobile-apps/mobile-release-checklist.md"
+    },
+    {
+      "id": "finance-personal-finance-monthly-budget-coach",
+      "slug": "finance/personal-finance/monthly-budget-coach",
+      "title": "Monthly Budget Coach",
+      "description": "Creates practical monthly budgets and savings plans. Not financial advice.",
+      "category": "finance",
+      "subcategory": "personal-finance",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Manage spending",
+        "Plan savings"
+      ],
+      "tags": [
+        "finance",
+        "personal-finance",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "monthly",
+        "budget",
+        "coach"
+      ],
+      "prompt": "Act as a personal finance coach. Build a monthly budget from the numbers below. Include essentials, flexible spending, debt, savings, emergency fund plan, and behavior tips. Do not provide regulated financial advice.\n\nIncome and expenses:\n{{numbers}}",
+      "exampleOutput": "Suggestion: automate savings on payday before discretionary categories are funded.",
+      "markdown": "# Monthly Budget Coach\n\n## Description\nCreates practical monthly budgets and savings plans. Not financial advice.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Manage spending\n- Plan savings\n\n## Prompt\n\nAct as a personal finance coach. Build a monthly budget from the numbers below. Include essentials, flexible spending, debt, savings, emergency fund plan, and behavior tips. Do not provide regulated financial advice.\n\nIncome and expenses:\n{{numbers}}\n\n## Example Output\n\nSuggestion: automate savings on payday before discretionary categories are funded.\n",
+      "githubPath": "prompts/finance/personal-finance/monthly-budget-coach.md"
+    },
+    {
+      "id": "writing-newsletters-newsletter-issue-planner",
+      "slug": "writing/newsletters/newsletter-issue-planner",
+      "title": "Newsletter Issue Planner",
+      "description": "Plans polished newsletter issues with sections, subject lines, and CTAs.",
+      "category": "writing",
+      "subcategory": "newsletters",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Write weekly newsletters",
+        "Curate links"
+      ],
+      "tags": [
+        "writing",
+        "newsletters",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "newsletter",
+        "issue",
+        "planner"
+      ],
+      "prompt": "Plan a newsletter issue for {{audience}} about {{topic}}. Include subject lines, preview text, opening hook, sections, curated links placeholders, CTA, and editorial voice notes.",
+      "exampleOutput": "Subject: 7 prompts that saved product teams hours this week",
+      "markdown": "# Newsletter Issue Planner\n\n## Description\nPlans polished newsletter issues with sections, subject lines, and CTAs.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Write weekly newsletters\n- Curate links\n\n## Prompt\n\nPlan a newsletter issue for {{audience}} about {{topic}}. Include subject lines, preview text, opening hook, sections, curated links placeholders, CTA, and editorial voice notes.\n\n## Example Output\n\nSubject: 7 prompts that saved product teams hours this week\n",
+      "githubPath": "prompts/writing/newsletters/newsletter-issue-planner.md"
+    },
+    {
+      "id": "development-nextjs-nextjs-seo-metadata",
+      "slug": "development/nextjs/nextjs-seo-metadata",
+      "title": "Next.js SEO Metadata Generator",
+      "description": "Generates complete metadata, Open Graph, robots, sitemap, and structured data recommendations for Next.js apps.",
+      "category": "development",
+      "subcategory": "nextjs",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Cursor"
+      ],
+      "useCases": [
+        "Launch marketing pages",
+        "Improve indexing"
+      ],
+      "tags": [
+        "development",
+        "nextjs",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "cursor",
+        "next-js",
+        "seo",
+        "metadata",
+        "generator"
+      ],
+      "prompt": "Act as a technical SEO engineer specializing in Next.js App Router. Generate metadata for this page, including title, description, keywords, canonical URL, Open Graph, Twitter cards, JSON-LD, sitemap priority, and robots guidance.\n\nPage purpose: {{purpose}}\nAudience: {{audience}}\nPrimary keyword: {{keyword}}\nURL: {{url}}",
+      "exampleOutput": "export const metadata = { title: \"Prompt Library for Developers | Prompt Empir\", description: \"Curated AI prompts for building, debugging, and documenting software.\" };",
+      "markdown": "# Next.js SEO Metadata Generator\n\n## Description\nGenerates complete metadata, Open Graph, robots, sitemap, and structured data recommendations for Next.js apps.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Cursor\n\n## Use Cases\n- Launch marketing pages\n- Improve indexing\n\n## Prompt\n\nAct as a technical SEO engineer specializing in Next.js App Router. Generate metadata for this page, including title, description, keywords, canonical URL, Open Graph, Twitter cards, JSON-LD, sitemap priority, and robots guidance.\n\nPage purpose: {{purpose}}\nAudience: {{audience}}\nPrimary keyword: {{keyword}}\nURL: {{url}}\n\n## Example Output\n\nexport const metadata = { title: \"Prompt Library for Developers | Prompt Empir\", description: \"Curated AI prompts for building, debugging, and documenting software.\" };\n",
+      "githubPath": "prompts/development/nextjs/nextjs-seo-metadata.md"
+    },
+    {
+      "id": "development-nodejs-nodejs-service-hardening",
+      "slug": "development/nodejs/nodejs-service-hardening",
+      "title": "Node.js Service Hardening",
+      "description": "Hardens Node.js services using secure defaults, validation, observability, and dependency hygiene.",
+      "category": "development",
+      "subcategory": "nodejs",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "DeepSeek"
+      ],
+      "useCases": [
+        "Prepare production launch",
+        "Reduce security risk"
+      ],
+      "tags": [
+        "development",
+        "nodejs",
+        "chatgpt",
+        "claude",
+        "deepseek",
+        "node-js",
+        "service",
+        "hardening"
+      ],
+      "prompt": "You are a Node.js security engineer. Review this service and propose hardening steps for input validation, auth, rate limiting, headers, logging, secrets, dependencies, error handling, and deployment.\n\nService details:\n{{service_details}}\n\nCode snippets:\n{{code}}",
+      "exampleOutput": "Add helmet with a strict content security policy, validate request bodies with Zod, and configure pino redaction for authorization headers.",
+      "markdown": "# Node.js Service Hardening\n\n## Description\nHardens Node.js services using secure defaults, validation, observability, and dependency hygiene.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- DeepSeek\n\n## Use Cases\n- Prepare production launch\n- Reduce security risk\n\n## Prompt\n\nYou are a Node.js security engineer. Review this service and propose hardening steps for input validation, auth, rate limiting, headers, logging, secrets, dependencies, error handling, and deployment.\n\nService details:\n{{service_details}}\n\nCode snippets:\n{{code}}\n\n## Example Output\n\nAdd helmet with a strict content security policy, validate request bodies with Zod, and configure pino redaction for authorization headers.\n",
+      "githubPath": "prompts/development/nodejs/nodejs-service-hardening.md"
+    },
+    {
+      "id": "productivity-goal-setting-okr-planner",
+      "slug": "productivity/goal-setting/okr-planner",
+      "title": "OKR Planner",
+      "description": "Turns ambitions into measurable OKRs and weekly execution plans.",
+      "category": "productivity",
+      "subcategory": "goal-setting",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Set team goals",
+        "Plan personal projects"
+      ],
+      "tags": [
+        "productivity",
+        "goal-setting",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "okr",
+        "planner"
+      ],
+      "prompt": "Help me create OKRs for {{area}}. Include objectives, key results, initiatives, leading indicators, risks, weekly check-in questions, and a 30-day action plan.",
+      "exampleOutput": "Objective: Make Prompt Empir the most useful open prompt library for developers. KR: Publish 100 vetted prompts by Q3.",
+      "markdown": "# OKR Planner\n\n## Description\nTurns ambitions into measurable OKRs and weekly execution plans.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Set team goals\n- Plan personal projects\n\n## Prompt\n\nHelp me create OKRs for {{area}}. Include objectives, key results, initiatives, leading indicators, risks, weekly check-in questions, and a 30-day action plan.\n\n## Example Output\n\nObjective: Make Prompt Empir the most useful open prompt library for developers. KR: Publish 100 vetted prompts by Q3.\n",
+      "githubPath": "prompts/productivity/goal-setting/okr-planner.md"
+    },
+    {
+      "id": "development-apis-openapi-spec-writer",
+      "slug": "development/apis/openapi-spec-writer",
+      "title": "OpenAPI Spec Writer",
+      "description": "Turns product requirements into a clean OpenAPI specification.",
+      "category": "development",
+      "subcategory": "apis",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Document APIs",
+        "Generate SDKs"
+      ],
+      "tags": [
+        "development",
+        "apis",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "openapi",
+        "spec",
+        "writer"
+      ],
+      "prompt": "Create an OpenAPI 3.1 specification from these requirements. Include schemas, examples, errors, auth, pagination, idempotency keys where relevant, and concise endpoint descriptions.\n\nRequirements:\n{{requirements}}",
+      "exampleOutput": "paths:\n  /v1/prompts:\n    get:\n      summary: List prompts\n      parameters:\n        - name: category\n          in: query",
+      "markdown": "# OpenAPI Spec Writer\n\n## Description\nTurns product requirements into a clean OpenAPI specification.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Document APIs\n- Generate SDKs\n\n## Prompt\n\nCreate an OpenAPI 3.1 specification from these requirements. Include schemas, examples, errors, auth, pagination, idempotency keys where relevant, and concise endpoint descriptions.\n\nRequirements:\n{{requirements}}\n\n## Example Output\n\npaths:\n  /v1/prompts:\n    get:\n      summary: List prompts\n      parameters:\n        - name: category\n          in: query\n",
+      "githubPath": "prompts/development/apis/openapi-spec-writer.md"
+    },
+    {
+      "id": "development-security-owasp-threat-model",
+      "slug": "development/security/owasp-threat-model",
+      "title": "OWASP Threat Model",
+      "description": "Builds a practical threat model using OWASP guidance and secure-by-default principles.",
+      "category": "development",
+      "subcategory": "security",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Review new features",
+        "Prepare security design docs"
+      ],
+      "tags": [
+        "development",
+        "security",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "owasp",
+        "threat",
+        "model"
+      ],
+      "prompt": "Act as an application security lead. Threat model this system using STRIDE and OWASP Top 10. Identify assets, trust boundaries, threats, abuse cases, mitigations, residual risk, and test cases.\n\nSystem description:\n{{system_description}}\n\nArchitecture diagram or notes:\n{{architecture}}",
+      "exampleOutput": "Threat: Broken access control on prompt ownership. Mitigation: enforce server-side organization membership checks on every write operation.",
+      "markdown": "# OWASP Threat Model\n\n## Description\nBuilds a practical threat model using OWASP guidance and secure-by-default principles.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Review new features\n- Prepare security design docs\n\n## Prompt\n\nAct as an application security lead. Threat model this system using STRIDE and OWASP Top 10. Identify assets, trust boundaries, threats, abuse cases, mitigations, residual risk, and test cases.\n\nSystem description:\n{{system_description}}\n\nArchitecture diagram or notes:\n{{architecture}}\n\n## Example Output\n\nThreat: Broken access control on prompt ownership. Mitigation: enforce server-side organization membership checks on every write operation.\n",
+      "githubPath": "prompts/development/security/owasp-threat-model.md"
+    },
+    {
+      "id": "general-ai-perplexity-perplexity-research-brief",
+      "slug": "general-ai/perplexity/perplexity-research-brief",
+      "title": "Perplexity Research Brief",
+      "description": "Creates source-aware research prompts for Perplexity-style browsing.",
+      "category": "general-ai",
+      "subcategory": "perplexity",
+      "models": [
+        "Perplexity"
+      ],
+      "useCases": [
+        "Research markets",
+        "Verify facts"
+      ],
+      "tags": [
+        "general-ai",
+        "perplexity",
+        "research",
+        "brief"
+      ],
+      "prompt": "Research {{topic}} using current, credible sources. Prioritize primary sources, recent data, and opposing viewpoints. Return key findings, citations, confidence, and unanswered questions.",
+      "exampleOutput": "Finding: adoption claims vary by survey methodology; prioritize vendor-neutral reports and primary datasets.",
+      "markdown": "# Perplexity Research Brief\n\n## Description\nCreates source-aware research prompts for Perplexity-style browsing.\n\n## Best AI Models\n- Perplexity\n\n## Use Cases\n- Research markets\n- Verify facts\n\n## Prompt\n\nResearch {{topic}} using current, credible sources. Prioritize primary sources, recent data, and opposing viewpoints. Return key findings, citations, confidence, and unanswered questions.\n\n## Example Output\n\nFinding: adoption claims vary by survey methodology; prioritize vendor-neutral reports and primary datasets.\n",
+      "githubPath": "prompts/general-ai/perplexity/perplexity-research-brief.md"
+    },
+    {
+      "id": "design-posters-poster-art-direction",
+      "slug": "design/posters/poster-art-direction",
+      "title": "Poster Art Direction Prompt",
+      "description": "Creates high-quality poster prompts for campaigns or events.",
+      "category": "design",
+      "subcategory": "posters",
+      "models": [
+        "Midjourney",
+        "DALL-E",
+        "Flux",
+        "Stable Diffusion"
+      ],
+      "useCases": [
+        "Generate campaign posters",
+        "Explore visual styles"
+      ],
+      "tags": [
+        "design",
+        "posters",
+        "midjourney",
+        "dall-e",
+        "flux",
+        "stable-diffusion",
+        "poster",
+        "art",
+        "direction",
+        "prompt"
+      ],
+      "prompt": "Write a poster generation prompt for {{event_or_campaign}}. Include subject, composition, typography space, color palette, lighting, mood, medium, aspect ratio, and negative prompt. Make it suitable for {{image_model}}.",
+      "exampleOutput": "A bold editorial poster for an AI conference, luminous grid horizon, centered abstract neural monolith, ample top typography space, deep navy and silver.",
+      "markdown": "# Poster Art Direction Prompt\n\n## Description\nCreates high-quality poster prompts for campaigns or events.\n\n## Best AI Models\n- Midjourney\n- DALL-E\n- Flux\n- Stable Diffusion\n\n## Use Cases\n- Generate campaign posters\n- Explore visual styles\n\n## Prompt\n\nWrite a poster generation prompt for {{event_or_campaign}}. Include subject, composition, typography space, color palette, lighting, mood, medium, aspect ratio, and negative prompt. Make it suitable for {{image_model}}.\n\n## Example Output\n\nA bold editorial poster for an AI conference, luminous grid horizon, centered abstract neural monolith, ample top typography space, deep navy and silver.\n",
+      "githubPath": "prompts/design/posters/poster-art-direction.md"
+    },
+    {
+      "id": "ecommerce-product-descriptions-product-description-writer",
+      "slug": "ecommerce/product-descriptions/product-description-writer",
+      "title": "Product Description Writer",
+      "description": "Writes benefit-driven product descriptions with SEO and objection handling.",
+      "category": "ecommerce",
+      "subcategory": "product-descriptions",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Launch products",
+        "Improve listings"
+      ],
+      "tags": [
+        "ecommerce",
+        "product-descriptions",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "product",
+        "description",
+        "writer"
+      ],
+      "prompt": "Write a product description for {{product}}. Include headline, benefit bullets, story, specs, use cases, objections, SEO title, meta description, and tone variants.\n\nAudience: {{audience}}\nFeatures: {{features}}",
+      "exampleOutput": "Headline: A lightweight everyday bag built for work, travel, and everything between.",
+      "markdown": "# Product Description Writer\n\n## Description\nWrites benefit-driven product descriptions with SEO and objection handling.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Launch products\n- Improve listings\n\n## Prompt\n\nWrite a product description for {{product}}. Include headline, benefit bullets, story, specs, use cases, objections, SEO title, meta description, and tone variants.\n\nAudience: {{audience}}\nFeatures: {{features}}\n\n## Example Output\n\nHeadline: A lightweight everyday bag built for work, travel, and everything between.\n",
+      "githubPath": "prompts/ecommerce/product-descriptions/product-description-writer.md"
+    },
+    {
+      "id": "business-product-strategy-product-requirements-doc",
+      "slug": "business/product-strategy/product-requirements-doc",
+      "title": "Product Requirements Document",
+      "description": "Generates a professional PRD from raw product notes.",
+      "category": "business",
+      "subcategory": "product-strategy",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Align teams",
+        "Prepare implementation"
+      ],
+      "tags": [
+        "business",
+        "product-strategy",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "product",
+        "requirements",
+        "document"
+      ],
+      "prompt": "Write a PRD for {{feature}}. Include problem, goals, non-goals, users, user stories, requirements, edge cases, analytics, rollout plan, risks, and open questions.\n\nNotes: {{notes}}",
+      "exampleOutput": "Non-goal: building a full community voting system in v1; prompt submission remains GitHub PR-based.",
+      "markdown": "# Product Requirements Document\n\n## Description\nGenerates a professional PRD from raw product notes.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Align teams\n- Prepare implementation\n\n## Prompt\n\nWrite a PRD for {{feature}}. Include problem, goals, non-goals, users, user stories, requirements, edge cases, analytics, rollout plan, risks, and open questions.\n\nNotes: {{notes}}\n\n## Example Output\n\nNon-goal: building a full community voting system in v1; prompt submission remains GitHub PR-based.\n",
+      "githubPath": "prompts/business/product-strategy/product-requirements-doc.md"
+    },
+    {
+      "id": "development-backend-api-design-review",
+      "slug": "development/backend/api-design-review",
+      "title": "Production API Design Review",
+      "description": "Reviews REST or GraphQL API designs for correctness, security, scalability, and developer experience.",
+      "category": "development",
+      "subcategory": "backend",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "DeepSeek",
+        "GitHub Copilot"
+      ],
+      "useCases": [
+        "Validate endpoint design",
+        "Improve API documentation"
+      ],
+      "tags": [
+        "development",
+        "backend",
+        "chatgpt",
+        "claude",
+        "deepseek",
+        "github-copilot",
+        "production",
+        "api",
+        "design",
+        "review"
+      ],
+      "prompt": "You are a principal backend architect. Review this API design for resource modeling, authentication, authorization, validation, pagination, errors, idempotency, rate limiting, observability, and versioning. Provide a concise scorecard and improved endpoint examples.\n\nAPI draft:\n{{api_draft}}\n\nBusiness requirements:\n{{requirements}}",
+      "exampleOutput": "Scorecard: Authentication 8/10, Authorization 5/10. Recommendation: add object-level authorization checks for GET /projects/{id} and use cursor pagination for list endpoints.",
+      "markdown": "# Production API Design Review\n\n## Description\nReviews REST or GraphQL API designs for correctness, security, scalability, and developer experience.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- DeepSeek\n- GitHub Copilot\n\n## Use Cases\n- Validate endpoint design\n- Improve API documentation\n\n## Prompt\n\nYou are a principal backend architect. Review this API design for resource modeling, authentication, authorization, validation, pagination, errors, idempotency, rate limiting, observability, and versioning. Provide a concise scorecard and improved endpoint examples.\n\nAPI draft:\n{{api_draft}}\n\nBusiness requirements:\n{{requirements}}\n\n## Example Output\n\nScorecard: Authentication 8/10, Authorization 5/10. Recommendation: add object-level authorization checks for GET /projects/{id} and use cursor pagination for list endpoints.\n",
+      "githubPath": "prompts/development/backend/api-design-review.md"
+    },
+    {
+      "id": "development-python-python-code-review",
+      "slug": "development/python/python-code-review",
+      "title": "Python Code Review",
+      "description": "Reviews Python code for correctness, readability, typing, performance, and security.",
+      "category": "development",
+      "subcategory": "python",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "DeepSeek",
+        "GitHub Copilot"
+      ],
+      "useCases": [
+        "Review pull requests",
+        "Improve scripts"
+      ],
+      "tags": [
+        "development",
+        "python",
+        "chatgpt",
+        "claude",
+        "deepseek",
+        "github-copilot",
+        "code",
+        "review"
+      ],
+      "prompt": "Act as a senior Python reviewer. Review the code for correctness, edge cases, typing, tests, security, performance, and idiomatic style. Provide severity, explanation, and patch suggestions.\n\n```python\n{{python_code}}\n```",
+      "exampleOutput": "High: SQL query is constructed with string interpolation. Use parameterized queries to prevent injection.",
+      "markdown": "# Python Code Review\n\n## Description\nReviews Python code for correctness, readability, typing, performance, and security.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- DeepSeek\n- GitHub Copilot\n\n## Use Cases\n- Review pull requests\n- Improve scripts\n\n## Prompt\n\nAct as a senior Python reviewer. Review the code for correctness, edge cases, typing, tests, security, performance, and idiomatic style. Provide severity, explanation, and patch suggestions.\n\n```python\n{{python_code}}\n```\n\n## Example Output\n\nHigh: SQL query is constructed with string interpolation. Use parameterized queries to prevent injection.\n",
+      "githubPath": "prompts/development/python/python-code-review.md"
+    },
+    {
+      "id": "development-ai-engineering-rag-evaluation-plan",
+      "slug": "development/ai-engineering/rag-evaluation-plan",
+      "title": "RAG Evaluation Plan",
+      "description": "Designs an evaluation plan for retrieval-augmented generation systems.",
+      "category": "development",
+      "subcategory": "ai-engineering",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "DeepSeek"
+      ],
+      "useCases": [
+        "Improve AI answer quality",
+        "Measure hallucinations"
+      ],
+      "tags": [
+        "development",
+        "ai-engineering",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "deepseek",
+        "rag",
+        "evaluation",
+        "plan"
+      ],
+      "prompt": "You are an AI evaluation engineer. Create an evaluation plan for this RAG application. Include dataset design, golden answers, retrieval metrics, generation metrics, hallucination checks, human review rubric, regression tests, and release gates.\n\nApp description:\n{{app}}\nKnowledge sources:\n{{sources}}\nFailure examples:\n{{failures}}",
+      "exampleOutput": "Release gate: at least 85% answer faithfulness, 90% citation accuracy, and no critical safety failures in the red-team set.",
+      "markdown": "# RAG Evaluation Plan\n\n## Description\nDesigns an evaluation plan for retrieval-augmented generation systems.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- DeepSeek\n\n## Use Cases\n- Improve AI answer quality\n- Measure hallucinations\n\n## Prompt\n\nYou are an AI evaluation engineer. Create an evaluation plan for this RAG application. Include dataset design, golden answers, retrieval metrics, generation metrics, hallucination checks, human review rubric, regression tests, and release gates.\n\nApp description:\n{{app}}\nKnowledge sources:\n{{sources}}\nFailure examples:\n{{failures}}\n\n## Example Output\n\nRelease gate: at least 85% answer faithfulness, 90% citation accuracy, and no critical safety failures in the red-team set.\n",
+      "githubPath": "prompts/development/ai-engineering/rag-evaluation-plan.md"
+    },
+    {
+      "id": "development-react-react-component-refactor",
+      "slug": "development/react/react-component-refactor",
+      "title": "React Component Refactor Plan",
+      "description": "Refactors React components for readability, type safety, performance, and testability.",
+      "category": "development",
+      "subcategory": "react",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Cursor",
+        "Windsurf"
+      ],
+      "useCases": [
+        "Modernize legacy components",
+        "Improve state management"
+      ],
+      "tags": [
+        "development",
+        "react",
+        "chatgpt",
+        "claude",
+        "cursor",
+        "windsurf",
+        "component",
+        "refactor",
+        "plan"
+      ],
+      "prompt": "You are a React and TypeScript expert. Refactor the component below. Explain key changes first, then provide the improved code. Preserve behavior unless a bug is clearly identified. Optimize accessibility, memoization only where useful, props typing, error states, and tests.\n\nComponent:\n```tsx\n{{component_code}}\n```",
+      "exampleOutput": "Changes: extracted ButtonState type, replaced index keys with stable IDs, added aria-live for async errors, and moved derived state into memoized selectors.",
+      "markdown": "# React Component Refactor Plan\n\n## Description\nRefactors React components for readability, type safety, performance, and testability.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Cursor\n- Windsurf\n\n## Use Cases\n- Modernize legacy components\n- Improve state management\n\n## Prompt\n\nYou are a React and TypeScript expert. Refactor the component below. Explain key changes first, then provide the improved code. Preserve behavior unless a bug is clearly identified. Optimize accessibility, memoization only where useful, props typing, error states, and tests.\n\nComponent:\n```tsx\n{{component_code}}\n```\n\n## Example Output\n\nChanges: extracted ButtonState type, replaced index keys with stable IDs, added aria-live for async errors, and moved derived state into memoized selectors.\n",
+      "githubPath": "prompts/development/react/react-component-refactor.md"
+    },
+    {
+      "id": "coding-ai-replit-ai-replit-mvp-builder",
+      "slug": "coding-ai/replit-ai/replit-mvp-builder",
+      "title": "Replit AI MVP Builder",
+      "description": "Turns MVP ideas into Replit-friendly build prompts.",
+      "category": "coding-ai",
+      "subcategory": "replit-ai",
+      "models": [
+        "Replit AI",
+        "ChatGPT",
+        "Claude"
+      ],
+      "useCases": [
+        "Prototype apps",
+        "Teach beginners"
+      ],
+      "tags": [
+        "coding-ai",
+        "replit-ai",
+        "chatgpt",
+        "claude",
+        "replit",
+        "ai",
+        "mvp",
+        "builder"
+      ],
+      "prompt": "Create a Replit AI prompt to build {{app}}. Include stack, pages, data model, seed data, environment variables, run command, constraints, and step-by-step milestones.",
+      "exampleOutput": "Use SQLite for local persistence and include seed prompts so the app works immediately after running.",
+      "markdown": "# Replit AI MVP Builder\n\n## Description\nTurns MVP ideas into Replit-friendly build prompts.\n\n## Best AI Models\n- Replit AI\n- ChatGPT\n- Claude\n\n## Use Cases\n- Prototype apps\n- Teach beginners\n\n## Prompt\n\nCreate a Replit AI prompt to build {{app}}. Include stack, pages, data model, seed data, environment variables, run command, constraints, and step-by-step milestones.\n\n## Example Output\n\nUse SQLite for local persistence and include seed prompts so the app works immediately after running.\n",
+      "githubPath": "prompts/coding-ai/replit-ai/replit-mvp-builder.md"
+    },
+    {
+      "id": "education-research-research-question-mapper",
+      "slug": "education/research/research-question-mapper",
+      "title": "Research Question Mapper",
+      "description": "Develops research questions, hypotheses, methods, and literature search terms.",
+      "category": "education",
+      "subcategory": "research",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Perplexity"
+      ],
+      "useCases": [
+        "Plan papers",
+        "Prepare thesis topics"
+      ],
+      "tags": [
+        "education",
+        "research",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "perplexity",
+        "question",
+        "mapper"
+      ],
+      "prompt": "Help me turn this topic into researchable questions. Include scope, hypotheses, variables, methods, inclusion/exclusion criteria, search keywords, and ethical considerations.\n\nTopic: {{topic}}",
+      "exampleOutput": "RQ1: How does prompt template structure affect novice developers’ debugging success in TypeScript tasks?",
+      "markdown": "# Research Question Mapper\n\n## Description\nDevelops research questions, hypotheses, methods, and literature search terms.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Perplexity\n\n## Use Cases\n- Plan papers\n- Prepare thesis topics\n\n## Prompt\n\nHelp me turn this topic into researchable questions. Include scope, hypotheses, variables, methods, inclusion/exclusion criteria, search keywords, and ethical considerations.\n\nTopic: {{topic}}\n\n## Example Output\n\nRQ1: How does prompt template structure affect novice developers’ debugging success in TypeScript tasks?\n",
+      "githubPath": "prompts/education/research/research-question-mapper.md"
+    },
+    {
+      "id": "career-resume-resume-bullet-rewriter",
+      "slug": "career/resume/resume-bullet-rewriter",
+      "title": "Resume Bullet Rewriter",
+      "description": "Rewrites resume bullets with measurable impact and ATS-friendly language.",
+      "category": "career",
+      "subcategory": "resume",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Improve resumes",
+        "Tailor applications"
+      ],
+      "tags": [
+        "career",
+        "resume",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "bullet",
+        "rewriter"
+      ],
+      "prompt": "Rewrite these resume bullets for a {{target_role}} role. Use action verbs, metrics, scope, tools, and business impact. Keep them truthful and concise.\n\nBullets:\n{{bullets}}",
+      "exampleOutput": "Built a searchable prompt library with Next.js and Fuse.js, reducing prompt discovery time by 60% for internal users.",
+      "markdown": "# Resume Bullet Rewriter\n\n## Description\nRewrites resume bullets with measurable impact and ATS-friendly language.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Improve resumes\n- Tailor applications\n\n## Prompt\n\nRewrite these resume bullets for a {{target_role}} role. Use action verbs, metrics, scope, tools, and business impact. Keep them truthful and concise.\n\nBullets:\n{{bullets}}\n\n## Example Output\n\nBuilt a searchable prompt library with Next.js and Fuse.js, reducing prompt discovery time by 60% for internal users.\n",
+      "githubPath": "prompts/career/resume/resume-bullet-rewriter.md"
+    },
+    {
+      "id": "video-ai-runway-runway-ad-shotlist",
+      "slug": "video-ai/runway/runway-ad-shotlist",
+      "title": "Runway Ad Shotlist",
+      "description": "Creates Runway-ready shot lists for ads and social videos.",
+      "category": "video-ai",
+      "subcategory": "runway",
+      "models": [
+        "Runway"
+      ],
+      "useCases": [
+        "Generate ad concepts",
+        "Plan motion"
+      ],
+      "tags": [
+        "video-ai",
+        "runway",
+        "ad",
+        "shotlist"
+      ],
+      "prompt": "Write a Runway prompt and shot list for {{campaign}}. Include shots, duration, camera movement, visual continuity, transitions, text-safe areas, and negative constraints.",
+      "exampleOutput": "Shot 1: overhead desk with scattered sticky notes transforming into organized prompt cards, 4 seconds, smooth morph transition.",
+      "markdown": "# Runway Ad Shotlist\n\n## Description\nCreates Runway-ready shot lists for ads and social videos.\n\n## Best AI Models\n- Runway\n\n## Use Cases\n- Generate ad concepts\n- Plan motion\n\n## Prompt\n\nWrite a Runway prompt and shot list for {{campaign}}. Include shots, duration, camera movement, visual continuity, transitions, text-safe areas, and negative constraints.\n\n## Example Output\n\nShot 1: overhead desk with scattered sticky notes transforming into organized prompt cards, 4 seconds, smooth morph transition.\n",
+      "githubPath": "prompts/video-ai/runway/runway-ad-shotlist.md"
+    },
+    {
+      "id": "design-ui-design-saas-dashboard-ui",
+      "slug": "design/ui-design/saas-dashboard-ui",
+      "title": "SaaS Dashboard UI Prompt",
+      "description": "Generates a polished SaaS dashboard concept and implementation-ready design brief.",
+      "category": "design",
+      "subcategory": "ui-design",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Midjourney",
+        "DALL-E"
+      ],
+      "useCases": [
+        "Design admin dashboards",
+        "Create UI concepts"
+      ],
+      "tags": [
+        "design",
+        "ui-design",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "midjourney",
+        "dall-e",
+        "saas",
+        "dashboard",
+        "ui",
+        "prompt"
+      ],
+      "prompt": "Act as a senior product designer. Create a UI design brief for a SaaS dashboard. Include layout, hierarchy, components, responsive behavior, empty states, accessibility, visual style, and microcopy.\n\nProduct: {{product}}\nUsers: {{users}}\nKey workflows: {{workflows}}\nBrand style: {{style}}",
+      "exampleOutput": "Dashboard uses a left rail, KPI cards, alert strip, and sortable work queue. Empty states include a short explanation and primary action.",
+      "markdown": "# SaaS Dashboard UI Prompt\n\n## Description\nGenerates a polished SaaS dashboard concept and implementation-ready design brief.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Midjourney\n- DALL-E\n\n## Use Cases\n- Design admin dashboards\n- Create UI concepts\n\n## Prompt\n\nAct as a senior product designer. Create a UI design brief for a SaaS dashboard. Include layout, hierarchy, components, responsive behavior, empty states, accessibility, visual style, and microcopy.\n\nProduct: {{product}}\nUsers: {{users}}\nKey workflows: {{workflows}}\nBrand style: {{style}}\n\n## Example Output\n\nDashboard uses a left rail, KPI cards, alert strip, and sortable work queue. Empty states include a short explanation and primary action.\n",
+      "githubPath": "prompts/design/ui-design/saas-dashboard-ui.md"
+    },
+    {
+      "id": "business-saas-saas-pricing-strategy",
+      "slug": "business/saas/saas-pricing-strategy",
+      "title": "SaaS Pricing Strategy",
+      "description": "Creates SaaS pricing tiers and packaging rationale.",
+      "category": "business",
+      "subcategory": "saas",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Launch subscriptions",
+        "Improve monetization"
+      ],
+      "tags": [
+        "business",
+        "saas",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "pricing",
+        "strategy"
+      ],
+      "prompt": "Develop a SaaS pricing strategy for {{product}}. Include value metric, customer segments, tiers, feature packaging, annual discount, free trial or freemium recommendation, and risks.\n\nContext: {{context}}",
+      "exampleOutput": "Recommended value metric: active seats plus indexed prompt collections, because it scales with team usage and perceived value.",
+      "markdown": "# SaaS Pricing Strategy\n\n## Description\nCreates SaaS pricing tiers and packaging rationale.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Launch subscriptions\n- Improve monetization\n\n## Prompt\n\nDevelop a SaaS pricing strategy for {{product}}. Include value metric, customer segments, tiers, feature packaging, annual discount, free trial or freemium recommendation, and risks.\n\nContext: {{context}}\n\n## Example Output\n\nRecommended value metric: active seats plus indexed prompt collections, because it scales with team usage and perceived value.\n",
+      "githubPath": "prompts/business/saas/saas-pricing-strategy.md"
+    },
+    {
+      "id": "business-sales-sales-discovery-call",
+      "slug": "business/sales/sales-discovery-call",
+      "title": "Sales Discovery Call Planner",
+      "description": "Builds consultative sales discovery questions and qualification criteria.",
+      "category": "business",
+      "subcategory": "sales",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Prepare calls",
+        "Improve B2B sales"
+      ],
+      "tags": [
+        "business",
+        "sales",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "discovery",
+        "call",
+        "planner"
+      ],
+      "prompt": "Create a discovery call plan for selling {{product}} to {{buyer}}. Include call objective, agenda, qualification questions, pain probes, objection handling, next steps, and CRM notes template.",
+      "exampleOutput": "Pain probe: What happens if your team keeps solving this with the current workflow for another six months?",
+      "markdown": "# Sales Discovery Call Planner\n\n## Description\nBuilds consultative sales discovery questions and qualification criteria.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Prepare calls\n- Improve B2B sales\n\n## Prompt\n\nCreate a discovery call plan for selling {{product}} to {{buyer}}. Include call objective, agenda, qualification questions, pain probes, objection handling, next steps, and CRM notes template.\n\n## Example Output\n\nPain probe: What happens if your team keeps solving this with the current workflow for another six months?\n",
+      "githubPath": "prompts/business/sales/sales-discovery-call.md"
+    },
+    {
+      "id": "writing-seo-seo-content-brief",
+      "slug": "writing/seo/seo-content-brief",
+      "title": "SEO Content Brief",
+      "description": "Produces SEO briefs with intent, SERP angle, keywords, structure, and quality signals.",
+      "category": "writing",
+      "subcategory": "seo",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Perplexity"
+      ],
+      "useCases": [
+        "Brief writers",
+        "Improve rankings"
+      ],
+      "tags": [
+        "writing",
+        "seo",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "perplexity",
+        "content",
+        "brief"
+      ],
+      "prompt": "Create an SEO content brief for the keyword {{keyword}}. Include intent, audience, title options, meta description, outline, related keywords, FAQs, E-E-A-T signals, and differentiation angle.",
+      "exampleOutput": "Differentiation angle: include prompt evaluation criteria and downloadable examples instead of generic prompt lists.",
+      "markdown": "# SEO Content Brief\n\n## Description\nProduces SEO briefs with intent, SERP angle, keywords, structure, and quality signals.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Perplexity\n\n## Use Cases\n- Brief writers\n- Improve rankings\n\n## Prompt\n\nCreate an SEO content brief for the keyword {{keyword}}. Include intent, audience, title options, meta description, outline, related keywords, FAQs, E-E-A-T signals, and differentiation angle.\n\n## Example Output\n\nDifferentiation angle: include prompt evaluation criteria and downloadable examples instead of generic prompt lists.\n",
+      "githubPath": "prompts/writing/seo/seo-content-brief.md"
+    },
+    {
+      "id": "ecommerce-shopify-shopify-store-audit",
+      "slug": "ecommerce/shopify/shopify-store-audit",
+      "title": "Shopify Store Audit",
+      "description": "Audits Shopify stores for conversion, trust, UX, and SEO.",
+      "category": "ecommerce",
+      "subcategory": "shopify",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Improve conversion",
+        "Prepare launches"
+      ],
+      "tags": [
+        "ecommerce",
+        "shopify",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "store",
+        "audit"
+      ],
+      "prompt": "Act as a Shopify conversion expert. Audit this store or page. Review above-the-fold clarity, product pages, trust signals, checkout friction, mobile UX, SEO, speed, and analytics.\n\nStore/page details: {{details}}",
+      "exampleOutput": "Add a benefit-led headline above the product grid and move shipping/returns reassurance near the add-to-cart button.",
+      "markdown": "# Shopify Store Audit\n\n## Description\nAudits Shopify stores for conversion, trust, UX, and SEO.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Improve conversion\n- Prepare launches\n\n## Prompt\n\nAct as a Shopify conversion expert. Audit this store or page. Review above-the-fold clarity, product pages, trust signals, checkout friction, mobile UX, SEO, speed, and analytics.\n\nStore/page details: {{details}}\n\n## Example Output\n\nAdd a benefit-led headline above the product grid and move shipping/returns reassurance near the add-to-cart button.\n",
+      "githubPath": "prompts/ecommerce/shopify/shopify-store-audit.md"
+    },
+    {
+      "id": "creative-scripts-short-video-script",
+      "slug": "creative/scripts/short-video-script",
+      "title": "Short Video Script",
+      "description": "Writes short-form video scripts with hook, beats, and visual direction.",
+      "category": "creative",
+      "subcategory": "scripts",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Create reels",
+        "Plan ads"
+      ],
+      "tags": [
+        "creative",
+        "scripts",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "short",
+        "video",
+        "script"
+      ],
+      "prompt": "Write a {{duration}} short video script about {{topic}}. Include hook, beat-by-beat narration, on-screen text, visuals, sound cues, CTA, and alternate hooks.",
+      "exampleOutput": "Hook: “Your AI prompts are not too short — they are missing constraints.”",
+      "markdown": "# Short Video Script\n\n## Description\nWrites short-form video scripts with hook, beats, and visual direction.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Create reels\n- Plan ads\n\n## Prompt\n\nWrite a {{duration}} short video script about {{topic}}. Include hook, beat-by-beat narration, on-screen text, visuals, sound cues, CTA, and alternate hooks.\n\n## Example Output\n\nHook: “Your AI prompts are not too short — they are missing constraints.”\n",
+      "githubPath": "prompts/creative/scripts/short-video-script.md"
+    },
+    {
+      "id": "image-ai-stable-diffusion-stable-diffusion-negative-prompt",
+      "slug": "image-ai/stable-diffusion/stable-diffusion-negative-prompt",
+      "title": "Stable Diffusion Prompt with Negative Prompt",
+      "description": "Creates Stable Diffusion prompts with positive and negative components.",
+      "category": "image-ai",
+      "subcategory": "stable-diffusion",
+      "models": [
+        "Stable Diffusion"
+      ],
+      "useCases": [
+        "Improve image quality",
+        "Control outputs"
+      ],
+      "tags": [
+        "image-ai",
+        "stable-diffusion",
+        "stable",
+        "diffusion",
+        "prompt",
+        "with"
+      ],
+      "prompt": "Create a Stable Diffusion prompt for {{image_goal}}. Include positive prompt, negative prompt, suggested model style, aspect ratio, CFG range, steps, and seed strategy.",
+      "exampleOutput": "Negative: blurry, low quality, extra fingers, distorted text, watermark, oversaturated, bad anatomy.",
+      "markdown": "# Stable Diffusion Prompt with Negative Prompt\n\n## Description\nCreates Stable Diffusion prompts with positive and negative components.\n\n## Best AI Models\n- Stable Diffusion\n\n## Use Cases\n- Improve image quality\n- Control outputs\n\n## Prompt\n\nCreate a Stable Diffusion prompt for {{image_goal}}. Include positive prompt, negative prompt, suggested model style, aspect ratio, CFG range, steps, and seed strategy.\n\n## Example Output\n\nNegative: blurry, low quality, extra fingers, distorted text, watermark, oversaturated, bad anatomy.\n",
+      "githubPath": "prompts/image-ai/stable-diffusion/stable-diffusion-negative-prompt.md"
+    },
+    {
+      "id": "business-startups-startup-idea-validator",
+      "slug": "business/startups/startup-idea-validator",
+      "title": "Startup Idea Validator",
+      "description": "Stress-tests startup ideas through customer, market, moat, and execution lenses.",
+      "category": "business",
+      "subcategory": "startups",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Perplexity"
+      ],
+      "useCases": [
+        "Evaluate ideas",
+        "Prepare founder notes"
+      ],
+      "tags": [
+        "business",
+        "startups",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "perplexity",
+        "startup",
+        "idea",
+        "validator"
+      ],
+      "prompt": "Act as a skeptical startup advisor. Evaluate this idea for target customer, pain intensity, existing alternatives, willingness to pay, distribution, moat, MVP scope, risks, and validation experiments.\n\nIdea: {{idea}}",
+      "exampleOutput": "Validation experiment: interview 15 target users who currently pay for a workaround and measure urgency using recent behavior, not opinions.",
+      "markdown": "# Startup Idea Validator\n\n## Description\nStress-tests startup ideas through customer, market, moat, and execution lenses.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Perplexity\n\n## Use Cases\n- Evaluate ideas\n- Prepare founder notes\n\n## Prompt\n\nAct as a skeptical startup advisor. Evaluate this idea for target customer, pain intensity, existing alternatives, willingness to pay, distribution, moat, MVP scope, risks, and validation experiments.\n\nIdea: {{idea}}\n\n## Example Output\n\nValidation experiment: interview 15 target users who currently pay for a workaround and measure urgency using recent behavior, not opinions.\n",
+      "githubPath": "prompts/business/startups/startup-idea-validator.md"
+    },
+    {
+      "id": "writing-storytelling-story-structure-coach",
+      "slug": "writing/storytelling/story-structure-coach",
+      "title": "Story Structure Coach",
+      "description": "Improves story structure, character arcs, and emotional payoff.",
+      "category": "writing",
+      "subcategory": "storytelling",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Revise fiction",
+        "Develop scripts"
+      ],
+      "tags": [
+        "writing",
+        "storytelling",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "story",
+        "structure",
+        "coach"
+      ],
+      "prompt": "Act as a story editor. Analyze this story idea for protagonist, desire, stakes, conflict, midpoint, climax, theme, and emotional arc. Suggest improvements without taking over the author’s voice.\n\nStory: {{story}}",
+      "exampleOutput": "The protagonist’s external goal is clear, but the internal need appears only in the final act. Seed it in scene two.",
+      "markdown": "# Story Structure Coach\n\n## Description\nImproves story structure, character arcs, and emotional payoff.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Revise fiction\n- Develop scripts\n\n## Prompt\n\nAct as a story editor. Analyze this story idea for protagonist, desire, stakes, conflict, midpoint, climax, theme, and emotional arc. Suggest improvements without taking over the author’s voice.\n\nStory: {{story}}\n\n## Example Output\n\nThe protagonist’s external goal is clear, but the internal need appears only in the final act. Seed it in scene two.\n",
+      "githubPath": "prompts/writing/storytelling/story-structure-coach.md"
+    },
+    {
+      "id": "sports-training-strength-conditioning-plan",
+      "slug": "sports/training/strength-conditioning-plan",
+      "title": "Strength and Conditioning Plan",
+      "description": "Builds safe strength and conditioning plans with progression.",
+      "category": "sports",
+      "subcategory": "training",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Plan workouts",
+        "Support sport performance"
+      ],
+      "tags": [
+        "sports",
+        "training",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "strength",
+        "and",
+        "conditioning",
+        "plan"
+      ],
+      "prompt": "Create a strength and conditioning plan for {{goal}}. Include weekly schedule, exercises, sets, reps, RPE, mobility, recovery, progression, and safety notes. Experience: {{experience}}.",
+      "exampleOutput": "Safety note: keep two reps in reserve on compound lifts during the first two weeks.",
+      "markdown": "# Strength and Conditioning Plan\n\n## Description\nBuilds safe strength and conditioning plans with progression.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Plan workouts\n- Support sport performance\n\n## Prompt\n\nCreate a strength and conditioning plan for {{goal}}. Include weekly schedule, exercises, sets, reps, RPE, mobility, recovery, progression, and safety notes. Experience: {{experience}}.\n\n## Example Output\n\nSafety note: keep two reps in reserve on compound lifts during the first two weeks.\n",
+      "githubPath": "prompts/sports/training/strength-conditioning-plan.md"
+    },
+    {
+      "id": "audio-ai-suno-suno-song-prompt",
+      "slug": "audio-ai/suno/suno-song-prompt",
+      "title": "Suno Song Prompt",
+      "description": "Creates Suno prompts for songs, jingles, and themes.",
+      "category": "audio-ai",
+      "subcategory": "suno",
+      "models": [
+        "Suno"
+      ],
+      "useCases": [
+        "Generate music",
+        "Create brand jingles"
+      ],
+      "tags": [
+        "audio-ai",
+        "suno",
+        "song",
+        "prompt"
+      ],
+      "prompt": "Write a Suno prompt for {{song_goal}}. Include genre, mood, tempo, instruments, vocal style, structure, lyrical theme, and negative constraints.",
+      "exampleOutput": "Upbeat indie electronic theme, 118 BPM, bright synths, confident vocals, chorus about building faster with better prompts.",
+      "markdown": "# Suno Song Prompt\n\n## Description\nCreates Suno prompts for songs, jingles, and themes.\n\n## Best AI Models\n- Suno\n\n## Use Cases\n- Generate music\n- Create brand jingles\n\n## Prompt\n\nWrite a Suno prompt for {{song_goal}}. Include genre, mood, tempo, instruments, vocal style, structure, lyrical theme, and negative constraints.\n\n## Example Output\n\nUpbeat indie electronic theme, 118 BPM, bright synths, confident vocals, chorus about building faster with better prompts.\n",
+      "githubPath": "prompts/audio-ai/suno/suno-song-prompt.md"
+    },
+    {
+      "id": "productivity-systems-thinking-systems-map",
+      "slug": "productivity/systems-thinking/systems-map",
+      "title": "Systems Thinking Mapper",
+      "description": "Maps feedback loops, incentives, constraints, and leverage points.",
+      "category": "productivity",
+      "subcategory": "systems-thinking",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Analyze organizations",
+        "Solve recurring problems"
+      ],
+      "tags": [
+        "productivity",
+        "systems-thinking",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "systems",
+        "thinking",
+        "mapper"
+      ],
+      "prompt": "Analyze {{system_or_problem}} using systems thinking. Identify actors, incentives, stocks, flows, feedback loops, delays, bottlenecks, unintended consequences, and leverage points.",
+      "exampleOutput": "Leverage point: reduce prompt submission friction while maintaining review quality through templates and automated linting.",
+      "markdown": "# Systems Thinking Mapper\n\n## Description\nMaps feedback loops, incentives, constraints, and leverage points.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Analyze organizations\n- Solve recurring problems\n\n## Prompt\n\nAnalyze {{system_or_problem}} using systems thinking. Identify actors, incentives, stocks, flows, feedback loops, delays, bottlenecks, unintended consequences, and leverage points.\n\n## Example Output\n\nLeverage point: reduce prompt submission friction while maintaining review quality through templates and automated linting.\n",
+      "githubPath": "prompts/productivity/systems-thinking/systems-map.md"
+    },
+    {
+      "id": "writing-technical-writing-technical-docs-rewriter",
+      "slug": "writing/technical-writing/technical-docs-rewriter",
+      "title": "Technical Docs Rewriter",
+      "description": "Rewrites technical documentation for clarity and completeness.",
+      "category": "writing",
+      "subcategory": "technical-writing",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Improve docs",
+        "Prepare tutorials"
+      ],
+      "tags": [
+        "writing",
+        "technical-writing",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "technical",
+        "docs",
+        "rewriter"
+      ],
+      "prompt": "Rewrite this technical documentation for clarity. Preserve accuracy. Add prerequisites, steps, warnings, examples, troubleshooting, and concise headings.\n\nDocs:\n{{docs}}",
+      "exampleOutput": "Before you start: install Node.js 20 or later and run the command from the website directory.",
+      "markdown": "# Technical Docs Rewriter\n\n## Description\nRewrites technical documentation for clarity and completeness.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Improve docs\n- Prepare tutorials\n\n## Prompt\n\nRewrite this technical documentation for clarity. Preserve accuracy. Add prerequisites, steps, warnings, examples, troubleshooting, and concise headings.\n\nDocs:\n{{docs}}\n\n## Example Output\n\nBefore you start: install Node.js 20 or later and run the command from the website directory.\n",
+      "githubPath": "prompts/writing/technical-writing/technical-docs-rewriter.md"
+    },
+    {
+      "id": "design-typography-typography-system",
+      "slug": "design/typography/typography-system",
+      "title": "Typography System Designer",
+      "description": "Designs a typography scale and usage rules for digital products.",
+      "category": "design",
+      "subcategory": "typography",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Create design systems",
+        "Improve readability"
+      ],
+      "tags": [
+        "design",
+        "typography",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "system",
+        "designer"
+      ],
+      "prompt": "Design a responsive typography system for {{product}}. Include font pairing rationale, scale, line heights, weights, usage rules, accessibility considerations, and CSS variables.",
+      "exampleOutput": "--font-size-h1: clamp(2.25rem, 5vw, 4.5rem); line-height: 1.05; font-weight: 700;",
+      "markdown": "# Typography System Designer\n\n## Description\nDesigns a typography scale and usage rules for digital products.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Create design systems\n- Improve readability\n\n## Prompt\n\nDesign a responsive typography system for {{product}}. Include font pairing rationale, scale, line heights, weights, usage rules, accessibility considerations, and CSS variables.\n\n## Example Output\n\n--font-size-h1: clamp(2.25rem, 5vw, 4.5rem); line-height: 1.05; font-weight: 700;\n",
+      "githubPath": "prompts/design/typography/typography-system.md"
+    },
+    {
+      "id": "audio-ai-udio-udio-music-direction",
+      "slug": "audio-ai/udio/udio-music-direction",
+      "title": "Udio Music Direction",
+      "description": "Creates Udio prompts for polished music generation.",
+      "category": "audio-ai",
+      "subcategory": "udio",
+      "models": [
+        "Udio"
+      ],
+      "useCases": [
+        "Create soundtracks",
+        "Explore genres"
+      ],
+      "tags": [
+        "audio-ai",
+        "udio",
+        "music",
+        "direction"
+      ],
+      "prompt": "Create a Udio prompt for {{music_goal}}. Include genre blend, era, tempo, instrumentation, arrangement, vocal direction, production style, and reference-free mood descriptors.",
+      "exampleOutput": "Modern ambient techno, 124 BPM, pulsing bass, glassy arpeggios, spacious mix, optimistic and focused, instrumental.",
+      "markdown": "# Udio Music Direction\n\n## Description\nCreates Udio prompts for polished music generation.\n\n## Best AI Models\n- Udio\n\n## Use Cases\n- Create soundtracks\n- Explore genres\n\n## Prompt\n\nCreate a Udio prompt for {{music_goal}}. Include genre blend, era, tempo, instrumentation, arrangement, vocal direction, production style, and reference-free mood descriptors.\n\n## Example Output\n\nModern ambient techno, 124 BPM, pulsing bass, glassy arpeggios, spacious mix, optimistic and focused, instrumental.\n",
+      "githubPath": "prompts/audio-ai/udio/udio-music-direction.md"
+    },
+    {
+      "id": "design-ux-design-ux-research-interview-guide",
+      "slug": "design/ux-design/ux-research-interview-guide",
+      "title": "UX Research Interview Guide",
+      "description": "Creates user interview scripts and research plans.",
+      "category": "design",
+      "subcategory": "ux-design",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Conduct discovery",
+        "Validate product assumptions"
+      ],
+      "tags": [
+        "design",
+        "ux-design",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "ux",
+        "research",
+        "interview",
+        "guide"
+      ],
+      "prompt": "Create a UX research interview guide for {{product_or_feature}}. Include research goals, participant criteria, warm-up questions, task prompts, probing questions, bias warnings, note-taking template, and synthesis plan.",
+      "exampleOutput": "Probe: “Tell me about the last time you tried to solve this. What happened before and after?”",
+      "markdown": "# UX Research Interview Guide\n\n## Description\nCreates user interview scripts and research plans.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Conduct discovery\n- Validate product assumptions\n\n## Prompt\n\nCreate a UX research interview guide for {{product_or_feature}}. Include research goals, participant criteria, warm-up questions, task prompts, probing questions, bias warnings, note-taking template, and synthesis plan.\n\n## Example Output\n\nProbe: “Tell me about the last time you tried to solve this. What happened before and after?”\n",
+      "githubPath": "prompts/design/ux-design/ux-research-interview-guide.md"
+    },
+    {
+      "id": "video-ai-veo-veo-product-demo",
+      "slug": "video-ai/veo/veo-product-demo",
+      "title": "Veo Product Demo Prompt",
+      "description": "Creates video generation prompts for product demo sequences.",
+      "category": "video-ai",
+      "subcategory": "veo",
+      "models": [
+        "Veo"
+      ],
+      "useCases": [
+        "Generate promos",
+        "Visualize product launches"
+      ],
+      "tags": [
+        "video-ai",
+        "veo",
+        "product",
+        "demo",
+        "prompt"
+      ],
+      "prompt": "Create a Veo prompt for a {{duration}} product demo video. Include scene sequence, camera movement, transitions, lighting, mood, UI depiction, and audio direction if supported.",
+      "exampleOutput": "A 20-second cinematic product demo: close-up of creator searching prompts, smooth push-in, quick cuts to categories, clean studio lighting.",
+      "markdown": "# Veo Product Demo Prompt\n\n## Description\nCreates video generation prompts for product demo sequences.\n\n## Best AI Models\n- Veo\n\n## Use Cases\n- Generate promos\n- Visualize product launches\n\n## Prompt\n\nCreate a Veo prompt for a {{duration}} product demo video. Include scene sequence, camera movement, transitions, lighting, mood, UI depiction, and audio direction if supported.\n\n## Example Output\n\nA 20-second cinematic product demo: close-up of creator searching prompts, smooth push-in, quick cuts to categories, clean studio lighting.\n",
+      "githubPath": "prompts/video-ai/veo/veo-product-demo.md"
+    },
+    {
+      "id": "productivity-time-management-weekly-planning-system",
+      "slug": "productivity/time-management/weekly-planning-system",
+      "title": "Weekly Planning System",
+      "description": "Creates a realistic weekly plan using priorities, energy, and constraints.",
+      "category": "productivity",
+      "subcategory": "time-management",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Plan workweeks",
+        "Avoid overload"
+      ],
+      "tags": [
+        "productivity",
+        "time-management",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "weekly",
+        "planning",
+        "system"
+      ],
+      "prompt": "Create a weekly plan from these tasks. Prioritize by impact and urgency, estimate effort, schedule deep work, add buffers, identify dependencies, and define a shutdown ritual.\n\nTasks: {{tasks}}\nConstraints: {{constraints}}",
+      "exampleOutput": "Monday 09:00–11:00: deep work on search implementation. Buffer after lunch for review and fixes.",
+      "markdown": "# Weekly Planning System\n\n## Description\nCreates a realistic weekly plan using priorities, energy, and constraints.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Plan workweeks\n- Avoid overload\n\n## Prompt\n\nCreate a weekly plan from these tasks. Prioritize by impact and urgency, estimate effort, schedule deep work, add buffers, identify dependencies, and define a shutdown ritual.\n\nTasks: {{tasks}}\nConstraints: {{constraints}}\n\n## Example Output\n\nMonday 09:00–11:00: deep work on search implementation. Buffer after lunch for review and fixes.\n",
+      "githubPath": "prompts/productivity/time-management/weekly-planning-system.md"
+    },
+    {
+      "id": "coding-ai-windsurf-windsurf-cascade-plan",
+      "slug": "coding-ai/windsurf/windsurf-cascade-plan",
+      "title": "Windsurf Cascade Plan",
+      "description": "Creates a staged implementation plan for Windsurf Cascade.",
+      "category": "coding-ai",
+      "subcategory": "windsurf",
+      "models": [
+        "Windsurf",
+        "Claude",
+        "ChatGPT"
+      ],
+      "useCases": [
+        "Build features",
+        "Coordinate refactors"
+      ],
+      "tags": [
+        "coding-ai",
+        "windsurf",
+        "claude",
+        "chatgpt",
+        "cascade",
+        "plan"
+      ],
+      "prompt": "Write a Windsurf Cascade plan for {{task}}. Break into checkpoints, identify risky files, specify validation commands, and require small diffs with summaries after each checkpoint.",
+      "exampleOutput": "Checkpoint 2: build PromptExplorer client component and validate keyboard navigation before styling.",
+      "markdown": "# Windsurf Cascade Plan\n\n## Description\nCreates a staged implementation plan for Windsurf Cascade.\n\n## Best AI Models\n- Windsurf\n- Claude\n- ChatGPT\n\n## Use Cases\n- Build features\n- Coordinate refactors\n\n## Prompt\n\nWrite a Windsurf Cascade plan for {{task}}. Break into checkpoints, identify risky files, specify validation commands, and require small diffs with summaries after each checkpoint.\n\n## Example Output\n\nCheckpoint 2: build PromptExplorer client component and validate keyboard navigation before styling.\n",
+      "githubPath": "prompts/coding-ai/windsurf/windsurf-cascade-plan.md"
+    },
+    {
+      "id": "creative-world-building-worldbuilding-bible",
+      "slug": "creative/world-building/worldbuilding-bible",
+      "title": "Worldbuilding Bible",
+      "description": "Creates a structured worldbuilding bible for fiction, games, or scripts.",
+      "category": "creative",
+      "subcategory": "world-building",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Develop novels",
+        "Plan games"
+      ],
+      "tags": [
+        "creative",
+        "world-building",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "worldbuilding",
+        "bible"
+      ],
+      "prompt": "Create a worldbuilding bible for {{setting}}. Include geography, history, cultures, politics, economy, technology or magic, conflicts, daily life, naming conventions, and story hooks.",
+      "exampleOutput": "Story hook: an archivist discovers that the empire’s official prompts rewrite public memory.",
+      "markdown": "# Worldbuilding Bible\n\n## Description\nCreates a structured worldbuilding bible for fiction, games, or scripts.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Develop novels\n- Plan games\n\n## Prompt\n\nCreate a worldbuilding bible for {{setting}}. Include geography, history, cultures, politics, economy, technology or magic, conflicts, daily life, naming conventions, and story hooks.\n\n## Example Output\n\nStory hook: an archivist discovers that the empire’s official prompts rewrite public memory.\n",
+      "githubPath": "prompts/creative/world-building/worldbuilding-bible.md"
+    },
+    {
+      "id": "social-media-x-x-thread-writer",
+      "slug": "social-media/x/x-thread-writer",
+      "title": "X Thread Writer",
+      "description": "Writes concise X threads with strong hooks and scannable structure.",
+      "category": "social-media",
+      "subcategory": "x",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Grok"
+      ],
+      "useCases": [
+        "Share ideas",
+        "Promote launches"
+      ],
+      "tags": [
+        "social-media",
+        "x",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "grok",
+        "thread",
+        "writer"
+      ],
+      "prompt": "Write an X thread about {{topic}}. Include a strong first post, 6-10 concise posts, examples, a useful takeaway, and a soft CTA. Avoid hype and clichés.",
+      "exampleOutput": "1/ Most prompt libraries fail because they collect phrases. Useful ones collect repeatable workflows.",
+      "markdown": "# X Thread Writer\n\n## Description\nWrites concise X threads with strong hooks and scannable structure.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n- Grok\n\n## Use Cases\n- Share ideas\n- Promote launches\n\n## Prompt\n\nWrite an X thread about {{topic}}. Include a strong first post, 6-10 concise posts, examples, a useful takeaway, and a soft CTA. Avoid hype and clichés.\n\n## Example Output\n\n1/ Most prompt libraries fail because they collect phrases. Useful ones collect repeatable workflows.\n",
+      "githubPath": "prompts/social-media/x/x-thread-writer.md"
+    },
+    {
+      "id": "social-media-youtube-youtube-video-outline",
+      "slug": "social-media/youtube/youtube-video-outline",
+      "title": "YouTube Video Outline",
+      "description": "Plans YouTube videos with retention-focused structure.",
+      "category": "social-media",
+      "subcategory": "youtube",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "useCases": [
+        "Script tutorials",
+        "Plan educational videos"
+      ],
+      "tags": [
+        "social-media",
+        "youtube",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "video",
+        "outline"
+      ],
+      "prompt": "Create a YouTube outline for {{topic}}. Include title ideas, thumbnail concepts, hook, chapters, pattern interrupts, examples, CTA, and retention risks.",
+      "exampleOutput": "Retention risk: too much setup. Show the before/after prompt result in the first 20 seconds.",
+      "markdown": "# YouTube Video Outline\n\n## Description\nPlans YouTube videos with retention-focused structure.\n\n## Best AI Models\n- ChatGPT\n- Claude\n- Gemini\n\n## Use Cases\n- Script tutorials\n- Plan educational videos\n\n## Prompt\n\nCreate a YouTube outline for {{topic}}. Include title ideas, thumbnail concepts, hook, chapters, pattern interrupts, examples, CTA, and retention risks.\n\n## Example Output\n\nRetention risk: too much setup. Show the before/after prompt result in the first 20 seconds.\n",
+      "githubPath": "prompts/social-media/youtube/youtube-video-outline.md"
+    }
+  ],
+  "categories": [
+    "audio-ai",
+    "business",
+    "career",
+    "coding-ai",
+    "creative",
+    "design",
+    "development",
+    "ecommerce",
+    "education",
+    "finance",
+    "general-ai",
+    "image-ai",
+    "philosophy",
+    "productivity",
+    "psychology",
+    "social-media",
+    "sports",
+    "video-ai",
+    "writing"
+  ],
+  "models": [
+    "Bolt",
+    "ChatGPT",
+    "Claude",
+    "Cursor",
+    "DALL-E",
+    "DeepSeek",
+    "ElevenLabs",
+    "Flux",
+    "Gemini",
+    "GitHub Copilot",
+    "Grok",
+    "Kling",
+    "Leonardo AI",
+    "Lovable",
+    "Midjourney",
+    "Perplexity",
+    "Replit AI",
+    "Runway",
+    "Stable Diffusion",
+    "Suno",
+    "Udio",
+    "Veo",
+    "Windsurf"
+  ]
+}

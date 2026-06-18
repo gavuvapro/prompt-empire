@@ -1,0 +1,6 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prompt Empir logo">
+  <rect width="128" height="128" rx="28" fill="#050505"/>
+  <path d="M32 82V38h36c17 0 28 9 28 23S85 84 68 84H48v18H32V82Z" fill="white"/>
+  <path d="M48 52v18h18c8 0 13-3 13-9s-5-9-13-9H48Z" fill="#050505"/>
+  <path d="M80 30l8 12 14-5-7 14 11 10-16 1-6 15-7-15-16-1 12-10-7-14 14 5 8-12Z" fill="#60A5FA"/>
+</svg>
